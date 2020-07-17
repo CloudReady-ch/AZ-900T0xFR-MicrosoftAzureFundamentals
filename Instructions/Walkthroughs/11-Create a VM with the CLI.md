@@ -55,7 +55,7 @@ Dans cette tâche, nous utiliserons Azure CLI pour créer un groupe de ressource
     --admin-password Pa$$w0rd1234
     ```
 
-    >**Remarque ** : Si vous utilisez la ligne de commande sur un ordinateur Windows, remplacez le caractère barre oblique inverse (`\`) par le caractère caret (`^`).
+    >**Remarque** : Si vous utilisez la ligne de commande sur un ordinateur Windows, remplacez le caractère barre oblique inverse (`\`) par le caractère caret (`^`).
     
     **Remarque**: La commande sera terminée en 2 à 3 minutes. La commande créera une machine virtuelle et diverses ressources associées, telles que des ressources de stockage, de mise en réseau et de sécurité. Ne passez pas à l’étape suivante tant que le déploiement de la machine virtuelle n’est pas terminé. 
 

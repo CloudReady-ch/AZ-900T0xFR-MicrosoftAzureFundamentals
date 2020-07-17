@@ -32,14 +32,14 @@ Au cours de cette tâche, nous allons créer une machine virtuelle de centre de 
 
 4. Accédez à l’onglet **Mise en réseau** et configurez le paramètre suivant :
 
-    | Paramètres | Valeurs |
+    | Paramètre | Valeur |
     | -- | -- |
     | Groupe de sécurité réseau NIC | **Aucune**|
     | | |
 
 5. Sous l’onglet **Gestion**, dans la section **Contrôle** , sélectionnez le paramètre suivant :
 
-    | Paramètres | Valeurs |
+    | Paramètre | Valeur |
     | -- | -- |
     | Diagnostics d’amorçage | **Désactivé**|
     | | |
@@ -52,19 +52,19 @@ Au cours de cette tâche, nous allons créer une machine virtuelle de centre de 
 
 9. Dans le panneau de déploiement ou dans la zone de notification, cliquez sur **Accéder à la ressource**. 
 
-10. Sur le panneau de la machine virtuelle **SimpleWinVM**, cliquez sur **Mise en réseau** et, sous l’onglet **Règles de port entrant** vérifiez qu’aucun groupe de sécurité réseau n’est associé à l’interface réseau de la machine virtuelle ou au sous-réseau auquel l’interface réseau est connectée.
+10. Sur le panneau de la machine virtuelle **SimpleWinVM**, cliquez sur **Mise en réseau** et, sous l’onglet **Règles de port entrant**, vérifiez qu’aucun groupe de sécurité réseau n’est associé à l’interface réseau de la machine virtuelle ou au sous-réseau auquel l’interface réseau est connectée.
 
-    **Remarque**: Identifiez le nom de l’interface réseau. Vous en aurez besoin dans la prochaine tâche.
+    **Remarque** : identifiez le nom de l’interface réseau. Vous en aurez besoin dans la prochaine tâche.
 
 # Tâche 2 : Créer un groupe de sécurité réseau
 
-Dans cette tâche, nous allons créer un groupe de sécurité réseau et l’associer à l’interface réseau.
+Au cours de cette tâche, nous allons créer un groupe de sécurité réseau et l’associer à l’interface réseau.
 
 1. Dans le panneau **Tous les services**, recherchez et sélectionnez **Groupes de sécurité réseau** puis cliquez sur **+ Ajouter**
 
 2. Sous l’onglet **Bases** du panneau **Créer un groupe de sécurité réseau**, spécifiez les paramètres suivants.
 
-    | Paramètre | Valeur |
+    | Paramètres | Valeurs |
     | -- | -- |
     | Abonnement | **Choisissez votre abonnement** |
     | Groupe de ressources | **myRGSecure** |
@@ -96,7 +96,7 @@ Dans cette tâche, nous autoriserons le trafic RDP vers la machine virtuelle en 
 
 5. Sur l’onglet **Règles de port entrant**, cliquez sur **Ajouter une règle de port entrant**. Cliquez sur **Ajouter** une fois que vous avez terminé. 
 
-    | Paramètre | Valeur |
+    | Paramètres | Valeurs |
     | -- | -- |
     | Source | **Toutes**|
     | Plage de ports source : | **\*** |
@@ -130,7 +130,7 @@ Dans cette tâche, nous allons créer une règle de port de sortie NSG qui refus
 
 7. Cliquez sur **Ajouter une règle de port de sortie** à droite du groupe de sécurité réseau **myNSGSecure (attaché à l’interface réseau : myVMNic)** et configurez une nouvelle règle de sécurité sortante avec une priorité plus élevée qui refusera le trafic Internet. Lorsque vous avez terminé, cliquez sur **Ajouter**. 
 
-    | Paramètre | Valeur |
+    | Paramètres | Valeurs |
     | -- | -- |
     | Source | **Toutes**|
     | Plage de ports source : | **\*** |
@@ -147,4 +147,4 @@ Dans cette tâche, nous allons créer une règle de port de sortie NSG qui refus
 
 9. Accédez à **https://www.microsoft.com**. La page ne doit pas s’afficher. Vous devrez peut-être utiliser des fenêtres contextuelles de sécurité renforcée IE supplémentaires.  
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.

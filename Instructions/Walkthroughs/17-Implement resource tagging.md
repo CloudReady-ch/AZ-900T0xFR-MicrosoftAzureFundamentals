@@ -73,7 +73,7 @@ Dans cette tâche, nous allons créer des comptes de stockage pour tester le bal
 
 1. Dans le portail Azure, dans le panneau **Tous les services**, recherchez et sélectionnez **Balises**.
 
-2. Notez toutes les balises et leurs valeurs. Cliquez sur la paire clé/valeur **Entreprise : **paire clé-valeur **Contoso**. Cette action affiche un panneau montrant le compte de stockage nouvellement créé, à condition que vous ayez inclus la balise lors de son déploiement. 
+2. Notez toutes les balises et leurs valeurs. Cliquez sur la paire clé/valeur **Entreprise :** paire clé-valeur **Contoso**. Cette action affiche un panneau montrant le compte de stockage nouvellement créé, à condition que vous ayez inclus la balise lors de son déploiement. 
 
    ![Capture d’écran des balises avec les options Entreprise et Contoso sélectionnées.](../images/1705.png)
 

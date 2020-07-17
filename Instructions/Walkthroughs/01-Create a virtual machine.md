@@ -1,13 +1,13 @@
 ---
 wts:
     title: '01 - Créer une machine virtuelle dans le portail'
-    module: 'Module 02 - Services de base d’Azure'
+    module: 'Module 02 - Services de principaux Azure'
 ---
 # 01 - Créer une machine virtuelle dans le portail
 
-Au cours de cette procédure pas à pas, nous allons créer une machine virtuelle dans le portail Azure, nous connecter à cette machine virtuelle, installer le rôle Serveur web et effectuer un test. 
+Au cours de cette procédure pas à pas, nous allons créer une machine virtuelle dans le portail Azure, nous connecter à celle-ci, installer le rôle Serveur web et effectuer un test. 
 
-**Remarque**: Au cours de cette procédure pas à pas, prenez le temps de lire les informations en cliquant sur les icônes correspondantes. 
+**Remarque** : au cours de cette procédure pas à pas, prenez le temps de lire les informations en cliquant sur les icônes correspondantes. 
 
 # Tâche 1 : Créer la machine virtuelle
 

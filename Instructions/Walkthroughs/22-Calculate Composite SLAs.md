@@ -33,7 +33,7 @@ Notre exemple d’application se compose de ces services Azure. Nous n’entrero
 
 1. Si l’un des services qui composent notre application n’est pas disponible, notre application ne sera pas disponible pour la connexion et l’utilisation. En définitive, le temps de fonctionnement total de notre application se calcule sur la base des éléments suivants :
 
-    **% de temps de fonctionnement d’App Service** X **% de temps de fonctionnement d’Azure AD B2C** X  **% de temps de fonctionnement d’Application Gateway Azure ** X **% de temps de fonctionnement de la base de données SQL Azure** = **% de temps de fonctionnement**
+    **% de temps de fonctionnement d’App Service** X **% de temps de fonctionnement d’Azure AD B2C** X  **% de temps de fonctionnement d’Application Gateway Azure** X **% de temps de fonctionnement de la base de données SQL Azure** = **% de temps de fonctionnement**
 
     qui, en pourcentage, est comme suit :
 

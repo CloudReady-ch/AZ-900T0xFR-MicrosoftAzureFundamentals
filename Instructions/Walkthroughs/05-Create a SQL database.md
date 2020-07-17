@@ -1,16 +1,16 @@
 ---
 wts:
     title: '05 - Créer une base de données SQL'
-    module: 'Module 02 - Services de base d’Azure'
+    module: 'Module 02 - Services principaux Azure'
 ---
 
 # 05 - Créer une base de données SQL
 
-Dans cette procédure pas à pas, nous allons créer une base de données SQL dans Azure, puis interroger les données de cette base de données.
+Dans cette procédure pas à pas, nous allons créer une base de données SQL dans Azure, puis interroger les données de celle-ci.
 
 # Tâche 1 : Créer la base de données
 
-Dans cette tâche, vous allez créer une base de données SQL basée sur l'échantillon AdventureWorksLT. 
+Au cours de cette tâche, vous allez créer une base de données SQL basée sur l'exemple de base de données AdventureWorksLT. 
 
 1. Connectez-vous au Portail Azure à l'adresse [**https://portal.azure.com**](https://portal.azure.com).
 
@@ -49,7 +49,7 @@ Dans cette tâche, vous allez créer une base de données SQL basée sur l'écha
     
    ![Capture d’écran de l’onglet Mise en réseau du panneau Créer une base de données SQL avec les paramètres sélectionnés conformément au tableau et le bouton Examiner et créer activé.](../images/0501b.png)
 
-5. Allez à l’onglet **Paramètres supplémentaires**. Nous allons utiliser la base de données d’échantillon AdventureWorksLT.
+5. Allez à l’onglet **Paramètres supplémentaires**. Nous allons utiliser l’exemple de base de données AdventureWorksLT.
 
     | Paramètre | Valeur | 
     | --- | --- |

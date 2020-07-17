@@ -1,7 +1,7 @@
 ---
 wts:
     title: '07 - Implémenter des fonctions Azure'
-    module: 'Module 02 - Services de base d’Azure'
+    module: 'Module 02 - Services principaux Azure'
 ---
 # 07 - Implémenter des fonctions Azure
 
@@ -19,8 +19,8 @@ Dans cette tâche, nous allons créer une application de fonction.
 
     | Paramètres | Valeur |
     | -- | --|
-    | Abonnement | le nom de votre abonnement Azure |
-    | Groupe de ressources | le nom d’un nouveau groupe de ressources **myRGFunction** |
+    | Abonnement | Nom de votre abonnement Azure |
+    | Groupe de ressources | Nom d’un nouveau groupe de ressources **myRGFunction** |
     | Nom de l’application de fonction | **fonction-xxxx** |
     | Publier | **Code** |
     | Pile d’exécution | **NET Core** |
@@ -41,7 +41,7 @@ Dans cette tâche, nous allons utiliser la fonction Webhook + API pour afficher 
 
 1. Sur le panneau **Application de fonction**, cliquez sur l’application de fonction nouvellement créée. 
 
-1. Sur le panneau de l’application de fonction, dans la section **Fonctions**, cliquez sur **Fonctions** puis cliquez sur **+ Ajouter**.
+1. Sur le panneau de l’application de fonction, dans la section **Fonctions**, sur **Fonctions** puis cliquez sur **+ Ajouter**.
 
     ![Capture d’écran de l’étape de choix d’un environnement de développement dans les fonctions Azure pour le volet Mise en route de dot net dans le portail Azure. Les éléments d’affichage pour créer une nouvelle fonction dans le portail sont mis en surbrillance. Les éléments en surbrillance sont le développement de l’application de fonction, l’ajout d’une nouvelle fonction dans le portail et le bouton Continuer.](../images/0702.png)
 
@@ -69,13 +69,13 @@ Dans cette tâche, nous allons utiliser la fonction Webhook + API pour afficher 
 
     ![Capture d’écran du message Veuillez indiquer un nom.](../images/0706.png)
 
-1. Ajoutez **&name=*yourname*** à la fin de l’URL.
+1. Ajoutez **&name=*votre_nom*** à la fin de l’URL.
 
-    **Remarque**: Remplacez ***yourname*** par votre prénom. Par exemple, si vous vous appelez Cindy, l’URL finale ressemblera à `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
+    **Remarque** : remplacez ***votre_nom*** par votre prénom. Par exemple, si vous vous appelez Cindy, l’URL finale ressemblera à `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
 
     ![Capture d’écran d’une URL de fonction en surbrillance et d’un exemple de nom d’utilisateur ajouté dans la barre d’adresse d’un navigateur Web. Le message de type Hello et le nom d’utilisateur sont également mis en surbrillance pour illustrer la sortie de la fonction dans la fenêtre principale du navigateur.](../images/0707.png)
 
-1. Lorsque votre fonction s’exécute, chaque invocation est tracée. Pour afficher les traces dans le portail Azure, revenez sur **HttpTrigger1 \| **Panneau **Code + Test** et cliquez sur **Contrôler**.
+1. Lorsque votre fonction s’exécute, chaque invocation est tracée. Pour afficher les traces dans le portail Azure, revenez sur **HttpTrigger1 \|** Panneau **Code + Test** et cliquez sur **Contrôler**.
 
     ![Capture d’écran d’un journal d’informations de traçage résultant de l’exécution de la fonction dans l’éditeur de fonction du portail Azure.](../images/0709.png) 
 

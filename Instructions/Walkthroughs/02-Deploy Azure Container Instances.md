@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '02 - Déployer des instances de conteneur Azure'
-    module : 'Module 02 - Services de base d’Azure'
+    title: '02 - Déployer Azure Container Instances'
+    module: 'Module 02 - Services de base d’Azure'
 ---
 
 # 02 - Déployer Azure Container Instances

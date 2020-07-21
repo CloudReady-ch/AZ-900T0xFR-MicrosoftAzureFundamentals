@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '09 - Création d’une machine virtuelle avec un modèle'
+    title: '09 - Créer une machine virtuelle avec un modèle'
     module: 'Module 02 - Services de base d’Azure'
 ---
 # 09 - Créer une machine virtuelle avec un modèle

@@ -1,7 +1,7 @@
 ---
 wts:
     title: '18 - Explorer le Centre de gestion de la confidentialité'
-    module: 'Module 03 - Sécurité, confidentialité, conformité et confiance'
+    module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
 ---
 # 18 - Explorer le Centre de gestion de la confidentialité
 

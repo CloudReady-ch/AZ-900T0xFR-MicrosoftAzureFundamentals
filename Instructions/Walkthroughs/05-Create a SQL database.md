@@ -1,7 +1,7 @@
 ---
 wts:
     title: '05 - Créer une base de données SQL'
-    module: 'Module 02 - Services principaux Azure'
+    module: 'Module 02 - Services de base d’Azure'
 ---
 
 # 05 - Créer une base de données SQL

@@ -1,7 +1,7 @@
 ---
 wts:
     title: '03 - Créer un réseau virtuel'
-    module : 'Module 02 - Services de base d’Azure'
+    module: 'Module 02 - Services de base d’Azure'
 ---
 # 03 - Créer un réseau virtuel
 

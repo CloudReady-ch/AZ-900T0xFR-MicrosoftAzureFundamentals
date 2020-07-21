@@ -1,7 +1,7 @@
 ---
 wts:
     title: '21 - Ouvrir une demande de support'
-    module : 'Module 04 - Tarification et assistance Azure'
+    module: 'Module 04 - Tarification et assistance Azure'
 ---
 # 21 - Ouvrir une demande de support
 

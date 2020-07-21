@@ -1,7 +1,7 @@
 ---
 wts:
     title: '10 - Créer une machine virtuelle avec PowerShell'
-    module: 'Module 02 - Services de base d’Azure »
+    module: 'Module 02 - Services de base d’Azure'
 ---
 # 10 - Créer une machine virtuelle avec PowerShell
 

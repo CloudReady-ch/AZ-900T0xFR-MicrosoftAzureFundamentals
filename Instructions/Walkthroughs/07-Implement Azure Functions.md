@@ -1,7 +1,7 @@
 ---
 wts:
     title: '07 - Implémenter des fonctions Azure'
-    module: 'Module 02 - Services principaux Azure'
+    module: 'Module 02 - Services de base d’Azure'
 ---
 # 07 - Implémenter des fonctions Azure
 

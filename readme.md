@@ -5,7 +5,7 @@
 > **Un référentiel [Enregistrements et démos d’ateliers](https://github.com/MicrosoftLearning/Lab-Demo-Recordings) propose des liens vers des vidéos d’ateliers utilisés dans Microsoft Official Curriculum. L’objectif est de fournir aux formateurs certifiés Microsoft un moyen simple d’accéder à un enregistrement en version non audio des travaux pratiques utilisés dans la formation.**
 
 - **[Lien vers les procédures pas à pas (format HTML)](https://microsoftlearning.github.io/AZ-900T0x-MicrosoftAzureFundamentals/)**
-- **Êtes-vous un formateur MCT ?** -  Jetez un œil à notre [Guide de l’utilisateur GitHub pour MCT](https://github.com/MicrosoftLearning/MCT-User-Guide-FR/)
+- **Êtes-vous un formateur MCT ?** -  Jetez un œil à notre [Guide de l'utilisateur GitHub pour les instructeurs MCT](https://microsoftlearning.github.io/MCT-User-Guide-FR/)
 
 ## Que faisons-nous ?
 

@@ -11,7 +11,7 @@
 
 - Pour assurer le support de ces cours, nous devrons effectuer des mises à jour fréquentes du contenu de la formation pour maintenir à jour les services Azure qui y sont utilisés.  Nous publions les instructions d’atelier sur GitHub pour permettre des contributions ouvertes entre les auteurs du cours et les formateurs MCT pour maintenir le contenu à jour avec les modifications de la plateforme Azure.
 
-- Nous espérons que cela vous apportera un sentiment de collaboration aux ateliers jamais vu. Si Azure change et que vous le découvrez lors d’une livraison en direct, apportez une amélioration directement dans la source de l’atelier.  Aidez vos collègues formateurs MCT (Microsoft Certified Technology).
+- Nous espérons que cela vous apportera un sentiment de collaboration aux ateliers jamais vu. Si Azure change et que vous le découvrez lors d’une livraison en direct, apportez une amélioration directement dans la source de l’atelier.  Aidez vos collègues formateurs MCT.
 
 ## Comment dois-je utiliser ces fichiers par rapport aux fichiers MOC publiés ?
 

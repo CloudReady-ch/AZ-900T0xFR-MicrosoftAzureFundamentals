@@ -1,7 +1,7 @@
 ---
 wts:
     title: '14 - Créer une stratégie Azure'
-   module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
+    module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
 ---
 # 14 - Créer une stratégie Azure
 

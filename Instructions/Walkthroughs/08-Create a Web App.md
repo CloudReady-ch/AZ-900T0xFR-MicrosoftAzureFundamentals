@@ -1,19 +1,19 @@
 ---
-wts:
-    title: '08 - Créer une application Web'
-    module: 'Module 02 - Services de base d’Azure'
+wts :
+    title: '02 - Créer une application Web'
+    module: 'Module 02 : Principaux services Azure (charges de travail)'
 ---
-# 08 - Créer une application Web
+# 02 - Créer une application web
 
 Dans cette procédure pas à pas, nous allons créer une nouvelle application web qui exécute un conteneur Docker. Le conteneur affiche un message de bienvenue. 
 
-# Tâche 1 : Créer une application Web
+# Tâche 1 : Créer une application web
 
 Azure App Service est en fait un ensemble de quatre services, tous conçus pour vous aider à héberger et exécuter des applications Web. Les quatre services (Web Apps, Mobile Apps, API Apps et Logic Apps) sont différents, mais au final, ils fonctionnent tous de manière très similaire. Les Web Apps sont les plus couramment utilisées des quatre services, et c’est le service que nous utiliserons dans ce labo.
 
 Dans cette tâche, vous allez créer une application Web Azure App Service. 
 
-1. Connectez-vous au [Portail Azure](http://portal.azure.com/). 
+1. Connectez-vous au [portail Azure](http://portal.azure.com/). 
 
 2. Dans le panneau **Tous les services**, recherchez et sélectionnez **App Services** et cliquez sur **+ Ajouter**
 
@@ -21,11 +21,11 @@ Dans cette tâche, vous allez créer une application Web Azure App Service.
 
     | Paramètre | Valeur |
     | -- | -- |
-    | Abonnement | **Choisissez votre abonnement** |
+    | Abonnement | **Choisir votre abonnement** |
     | Groupe de ressources | **myRGWebApp1** (créer un nouveau) |
     | Nom | **myDockerWebAppxxxx** |
-    | Publier | **Conteneur Docker :** |
-    | Système d’exploitation | **Linux** |
+    | Publier | **Conteneur Docker** |
+    | Système d'exploitation | **Linux** |
     | Région | **Est des États-Unis** (ignorez les avertissements de disponibilité du plan de service) |
     | | |	
 
@@ -36,7 +36,7 @@ Dans cette tâche, vous allez créer une application Web Azure App Service.
     | Paramètre | Valeur |
     | -- | -- |
     | Options | **Conteneur unique** |
-    | Source de l'image | **Docker Hub** |
+    | Source d’image | **Docker Hub** |
     | Type d’accès | **Public** |
     | Image et étiquette | **microsoft/aci-helloworld** |
     | | |	
@@ -44,7 +44,7 @@ Dans cette tâche, vous allez créer une application Web Azure App Service.
 
 5. Cliquez sur **Examiner et créer**, puis cliquez sur **Créer**. 
 
-# Tâche 2 : Testez l’application Web
+# Tâche 2 : Testez l’application Web
 
 Dans cette tâche, nous allons tester l’application Web.
 
@@ -62,5 +62,5 @@ Dans cette tâche, nous allons tester l’application Web.
 
 5. Revenez au panneau **Aperçu** de votre application Web et notez qu’il comprend plusieurs graphiques. Si vous répétez l'étape 4 plusieurs fois, vous verrez la télémétrie correspondante affichée dans les graphiques. Cela comprend le nombre de demandes et le temps de réponse moyen. 
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
 

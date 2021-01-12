@@ -1,7 +1,7 @@
 ---
-wts:
+wts :
     title: '04 - Créer un stockage d’objets blob'
-    module: 'Module 02 - Services de base d’Azure'
+    module: 'Module 02 : Principaux services Azure'
 ---
 # 04 - Créer un stockage d’objets blob
 
@@ -19,14 +19,14 @@ Dans cette tâche, vous allez créer un nouveau compte de stockage.
 
     | Paramètre | Valeur | 
     | --- | --- |
-    | Abonnement | **Choisissez votre abonnement** |
+    | Abonnement | **Choisir votre abonnement** |
     | Groupe de ressources | **myRGStorage** (créer un nouveau) |
-    | Nom du compte de stockage : | **storageaccountxxxx** |
-    | Emplacement | **Est des États-Unis**  |
-    | Niveau de performance | **Standard** |
+    | Nom du compte de stockage | **storageaccountxxxx** |
+    | Lieu | **(États-Unis) USA Est**  |
+    | Performances | **Standard** |
     | Type de compte | **StorageV2 (usage général v2)** |
     | Réplication | **Stockage localement redondant (LRS)** |
-    | Niveau d’accès (par défaut) | **Chaud** |
+    | Niveau d’accès (par défaut) | **Chaud** |
     | | |
 
 5. Cliquez sur **Examiner et créer** pour réviser les paramètres de votre compte de stockage et autoriser Azure à valider la configuration. 
@@ -37,7 +37,7 @@ Dans cette tâche, vous allez créer un nouveau compte de stockage.
 
     ![Capture d’écran du compte de stockage nouvellement créé dans le portail Azure.](../images/0401.png)
 
-# Tâche 2 : Travailler avec le Stockage Blob
+# Tâche 2 : Utiliser le stockage Blob
 
 Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d’objet blob. 
 
@@ -49,7 +49,7 @@ Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d�
     | Paramètre | Valeur |
     | --- | --- |
     | Nom | **container1**  |
-    | Niveau d’accès public.| **Privé (aucun accès anonyme)** |
+    | Niveau d'accès public| **Privé (aucun accès anonyme)** |
     | | |
 
     ![Capture d’écran du conteneur d’objets blob nouvellement créé dans le compte de stockage du portail Azure.](../images/0402.png)
@@ -58,26 +58,26 @@ Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d�
 
 5. Accédez à un fichier sur votre ordinateur local. 
 
-    **Remarque**: Vous pouvez créer un fichier vide `.txt` ou utiliser n’importe quel fichier existant. Pensez à choisir un fichier de petite taille pour réduire le temps de chargement.
+    **Remarque** : Vous pouvez créer un fichier vide `.txt` ou utiliser n’importe quel fichier existant. Pensez à choisir un fichier de petite taille pour réduire le temps de chargement.
 
 6. Cliquez sur la flèche **Avancée**, laissez les valeurs par défaut mais passez en revue les options disponibles, puis cliquez sur **Charger**.
 
-    **Remarque**: Vous pouvez charger autant de blobs que vous le souhaitez de cette façon. De nouveaux blobs seront répertoriés dans le conteneur.
+    **Remarque** : Vous pouvez charger autant de blobs que vous le souhaitez de cette façon. De nouveaux blobs seront répertoriés dans le conteneur.
 
 7. Une fois le fichier chargé, cliquez avec le bouton droit sur le fichier et notez les options comprenant Afficher/modifier, Télécharger, Propriétés et Supprimer. 
 
 8. Si vous avez du temps, depuis le panneau de compte de stockage, passez en revue les options pour les fichiers, les tables et les files d’attente.
 
-# Tâche 3 : Surveillez le compte de stockage
+# Tâche 3 : Surveillez le compte de stockage
 
 1. Si nécessaire, revenez au panneau de compte de stockage et cliquez sur **Diagnostiquer et résoudre les problèmes**. 
 
 2. Découvrez certains des problèmes de stockage les plus courants. Notez qu’il existe plusieurs utilitaires de résolution des problèmes.
 
-3. Dans le panneau du compte de stockage, défilez vers le bas jusqu’à la section **Surveillance**, puis cliquez sur **Insights (aperçu)**. Notez qu’il existe des informations sur les pannes, les performances, la disponibilité et la capacité. Vos informations seront différentes.
+3. Dans le panneau du compte de stockage, défilez vers le bas jusqu’à la section **Surveillance**, puis cliquez sur **Insights **. Notez qu’il existe des informations sur les pannes, les performances, la disponibilité et la capacité. Vos informations seront différentes.
 
-    ![Capture d’écran de la page Informations du compte de stockage.](../images/0403.png)
+    ![Capture d’écran de la page Informations du compte de stockage.](../images/0403.PNG)
 
 Félicitations ! Vous avez créé un compte de stockage, puis travaillé avec des objets blob de stockage.
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.

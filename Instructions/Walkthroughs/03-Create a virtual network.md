@@ -1,7 +1,7 @@
 ---
-wts:
+wts :
     title: '03 - Créer un réseau virtuel'
-    module: 'Module 02 - Services de base d’Azure'
+    module: 'Module 02 : Principaux services Azure'
 ---
 # 03 - Créer un réseau virtuel
 
@@ -21,21 +21,22 @@ Dans cette tâche, nous allons créer un réseau virtuel.
     | --- | --- |
     | Nom | **vnet1** |
     | Espace d’adressage |**10.1.0.0/16** |
-    | Abonnement | **Sélectionnez votre abonnement.** |
+    | Abonnement | **Sélectionner votre abonnement** |
     | Groupe de ressources | **myRGVNet** (créer un nouveau) |
-    | Emplacement | **Est des États-Unis** |
-    | Sous-réseau - Nom | **valeur par défaut** |
+    | Lieu | **(États-Unis) USA Est** |
+    | Sous-réseau - Nom | **par défaut** |
     | Plage d’adresses de sous-réseau | **10.1.0.0/24** |
 
-    ![Capture d’écran du panneau Créer un réseau virtuel avec les champs par défaut.](../images/0301.png)
+    ![Capture d’écran de l’étape « De base » du panneau Créer un réseau virtuel avec les champs par défaut.](../images/0301a.png)
+    ![Capture d’écran de l’étape « Adresses IP » du panneau Créer un réseau virtuel avec les champs par défaut.](../images/0301b.png)
 
 5. Cliquez sur le bouton **Examiner et créer**. Assurez-vous que la validation a abouti.
 
 6. Cliquez sur le bouton **Créer** pour déployer le réseau virtuel. 
 
-    **Remarque**: Dans votre organisation, comment saurez-vous de quels réseaux virtuels et adresses IP vous aurez besoin ?
+    **Remarque** : Dans votre organisation, comment saurez-vous de quels réseaux virtuels et adresses IP vous aurez besoin ?
 
-# Tâche 2 : Créer deux machines virtuelles
+# Tâche 2 : Créer deux machines virtuelles
 
 Dans cette tâche, nous allons créer deux machines virtuelles dans le réseau virtuel. 
 
@@ -45,11 +46,11 @@ Dans cette tâche, nous allons créer deux machines virtuelles dans le réseau v
 
    | Paramètre | Valeur | 
    | --- | --- |
-   | Abonnement | **Choisissez votre abonnement**  |
+   | Abonnement | **Choisir votre abonnement**  |
    | Groupe de ressources |  **myRGVNet** |
    | Nom de la machine virtuelle | **vm1**|
-   | Région | **Est des États-Unis** |
-   | Image | **Windows Server 2019 DataCenter** |
+   | Région | **(États-Unis) USA Est** |
+   | Image | **Windows Server 2019 Datacenter** |
    | Nom d’utilisateur| **azureuser** |
    | Mot de passe| **Pa$$w0rd1234** |
    | Ports d’entrée publics| Sélectionnez **Autoriser les ports sélectionnés**  |
@@ -79,7 +80,7 @@ Dans cette tâche, nous allons créer deux machines virtuelles dans le réseau v
 
 7. Attendez la fin du déploiement des deux machines virtuelles. 
 
-# Tâche 3 : Tester la connexion 
+# Tâche 3 : Tester la connexion 
 
 Au cours de cette tâche, nous allons autoriser les connexions ICMP et tester si les machines virtuelles peuvent communiquer (ping) entre elles. 
 
@@ -87,7 +88,7 @@ Au cours de cette tâche, nous allons autoriser les connexions ICMP et tester si
 
 2. Dans le panneau **Vue d’ensemble**, cliquez sur le bouton **Se connecter**.
 
-    **Remarque**: Les instructions suivantes indiquent comment vous connecter à votre machine virtuelle à partir d’un ordinateur Windows. 
+    **Remarque** : Les instructions suivantes indiquent comment vous connecter à votre machine virtuelle à partir d’un ordinateur Windows. 
 
 3. Dans le panneau **Se connecter à la machine virtuelle**, conservez les options par défaut pour vous connecter avec une adresse IP sur le port 3389, puis cliquez sur **Télécharger le fichier RDP**.
 
@@ -99,7 +100,7 @@ Au cours de cette tâche, nous allons autoriser les connexions ICMP et tester si
 
 7. Ouvrez une invite de commandes PowerShell sur la machine virtuelle. Pour cela, cliquez sur le bouton **Démarrer**, tapez **PowerShell**, cliquez avec le bouton droit sur **Windows PowerShell**, puis, dans le menu contextuel, cliquez sur **Exécuter en tant qu’administrateur**
 
-8. Effectuez un test ping de vm2 (assurez-vous que vm2 est en cours d’exécution). Un message d’erreur s’affiche pour signaler que le délai d’attente de la demande est dépassé.  Le test ping échoue, car il utilise le **protocole ICMP (Internet Control Message Protocol)**. Par défaut, ICMP n’est pas autorisé via le Pare-feu Windows.
+8. Effectuez un test ping de vm2 (assurez-vous que vm2 est en cours d’exécution). Un message d’erreur s’affiche pour signaler que le délai d’attente de la demande est dépassé.  Le test ping échoue, car il utilise le **protocole ICMP (Internet Control Message Protocol)**. Par défaut, le protocole ICMP n’est pas autorisé par le pare-feu Windows.
 
 
    ```PowerShell
@@ -108,7 +109,7 @@ Au cours de cette tâche, nous allons autoriser les connexions ICMP et tester si
    
    ![Capture d’écran de l’invite de commandes PowerShell avec la commande ping vm2 après son exécution et le résultat indiquant que la commande a échoué.](../images/0302.png)
 
-    **Remarque**: Vous allez à présent ouvrir une session Bureau à distance vers vm2 et autoriser les connexions ICMP entrantes
+    **Remarque** : Vous allez à présent ouvrir une session Bureau à distance vers vm2 et autoriser les connexions ICMP entrantes
 
 9. Connectez-vous à **vm2** au moyen du protocole RDP. Vous pouvez suivre les étapes **2 à 6**.
 
@@ -119,7 +120,7 @@ Au cours de cette tâche, nous allons autoriser les connexions ICMP et tester si
    ```
    ![Capture d’écran de l’invite de commandes PowerShell avec la commande New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 après son exécution et le résultat indiquant que la commande a réussi.](../images/0303.png)
 
-   **Remarque**: Vous allez à présent basculer vers la session Bureau à distance vers vm1 et réexécuter le test ping
+   **Remarque** : Vous allez à présent basculer vers la session Bureau à distance vers vm1 et réexécuter le test ping
 
 11. Revenez à la session Bureau à distance vers vm1 et réexécutez le test ping. Le test devrait à présent réussir. 
 
@@ -129,4 +130,4 @@ Au cours de cette tâche, nous allons autoriser les connexions ICMP et tester si
 
 Félicitations ! Vous avez configuré et déployé deux machines virtuelles dans un réseau virtuel. Vous avez également configuré le Pare-feu Windows pour que l’une des machines virtuelles autorise les demandes ping entrantes. 
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.

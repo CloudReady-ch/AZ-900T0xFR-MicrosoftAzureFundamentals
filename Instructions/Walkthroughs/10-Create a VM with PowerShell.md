@@ -1,7 +1,7 @@
 ---
-wts:
+wts :
     title: '10 - Créer une machine virtuelle avec PowerShell'
-    module: 'Module 02 - Services de base d’Azure'
+    module: 'Module 02 : Principaux services Azure'
 ---
 # 10 - Créer une machine virtuelle avec PowerShell
 
@@ -23,7 +23,7 @@ Dans cette tâche, nous allons configurer Cloud Shell.
 
 5. Lorsque vous y êtes invité, cliquez sur **Créer l’espace de stockage** et attendez que Azure Cloud Shell s’initialise. 
 
-# Tâche 2 : Créer un groupe de ressources et une machine virtuelle
+# Tâche 2 : Créer un groupe de ressources et une machine virtuelle
 
 Dans cette tâche, nous allons utiliser PowerShell pour créer un groupe de ressources et une machine virtuelle.  
 
@@ -47,22 +47,23 @@ Dans cette tâche, nous allons utiliser PowerShell pour créer un groupe de ress
     New-AzVm `
     -ResourceGroupName "myRGPS" `
     -Name "myVMPS" `
-    -Location "Est des États-Unis" `
+    -Location "East US" `
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
+** Attendez le déploiement de la VM avant de fermer PowerShell
 
 5. Fermez le volet Cloud Shell de la session PowerShell.
 
-6. Dans le portail Azure, recherchez les **machines virtuelles** et vérifiez que **myVMPS** est en cours d’exécution. Cela peut prendre quelques minutes.
+6. Dans le portail Azure, recherchez les **machines virtuelles** et vérifiez que **myVMPS** est en cours d’exécution. Cette opération peut prendre quelques minutes.
 
     ![Capture d’écran de la page des machines virtuelles avec myVMPS en cours d’exécution.](../images/1001.png)
 
 7. Accédez à la nouvelle machine virtuelle et passez en revue les paramètres Vue d’ensemble et Réseaux pour vérifier que vos informations ont été correctement déployées. 
 
-# Tâche 3 : Exécuter des commandes dans Cloud Shell
+# Tâche 3 : Exécuter des commandes dans Cloud Shell
 
 Dans cette tâche, nous nous entraînerons à exécuter des commandes PowerShell à partir de Cloud Shell. 
 
@@ -114,4 +115,4 @@ Dans cette tâche, nous allons passer en revue les suggestions d’Azure Advisor
 
 Félicitations ! Vous avez configuré Cloud Shell, créé une machine virtuelle à l’aide de PowerShell, utilisé des commandes PowerShell et consulté les suggestions Advisor.
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.

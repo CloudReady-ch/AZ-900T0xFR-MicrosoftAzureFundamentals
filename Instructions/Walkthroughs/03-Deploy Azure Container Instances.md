@@ -1,7 +1,7 @@
 ---
 wts :
     title: '03 - Déployer Azure Container Instances (10 min)'
-    module: 'Module 02 : Principaux services Azure (charges de travail)'
+    module: 'Module 02 - Principaux services Azure (charges de travail)'
 ---
 
 # 03 - Déployer Azure Container Instances

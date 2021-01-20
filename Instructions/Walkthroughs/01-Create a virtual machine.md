@@ -1,7 +1,7 @@
 ---
 wts :
     title: '01 - Créer une machine virtuelle dans le portail (10 min)'
-    module: 'Module 02 : Principaux services Azure (charges de travail)'
+    module: 'Module 02 - Principaux services Azure (charges de travail)'
 ---
 # 01 - Créer une machine virtuelle dans le portail
 

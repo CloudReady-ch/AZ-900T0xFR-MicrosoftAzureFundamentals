@@ -1,13 +1,13 @@
 ---
 wts :
-    title: '12 - Sécuriser le trafic réseau'
-    module: 'Module 03 : Sécurité, confidentialité, conformité et fiabilité'
+    title: '13 - Sécuriser le trafic réseau (10 min)'
+    module: 'Module 04 : Décrire les caractéristiques générales de sécurité et de sécurité réseau'
 ---
-# 12 - Sécuriser le trafic réseau
+# 13 - Sécuriser le trafic réseau
 
 Dans cette procédure pas à pas, nous allons configurer un groupe de sécurité réseau.
 
-# Tâche 1 : Créer une machine virtuelle
+# Tâche 1 : Créer une machine virtuelle (10 min)
 
 Dans cette tâche, nous allons créer une machine virtuelle de base de données Windows Server 2019. 
 

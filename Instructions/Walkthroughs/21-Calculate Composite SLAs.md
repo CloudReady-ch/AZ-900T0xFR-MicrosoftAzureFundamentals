@@ -1,10 +1,9 @@
 ---
 wts:
-    title: '22 - Calculer des SLA composites'
-    module: 'Module 04 - Tarification et assistance Azure'
+    title: '21 - Calculer des SLA composites (5 min)'
+    module: 'Module 06 : Décrire la gestion des coûts et les accords de niveau de service d’Azure'
 ---
-# 22 - Calculer des SLA composites
-
+# 21 - Calculer des SLA composites
 
 Dans cette procédure pas à pas, nous allons déterminer le contrat de niveau de service de disponibilité des services Azure, puis calculer la disponibilité attendue basée sur le contrat de niveau de service composite de l’application.
 
@@ -15,7 +14,7 @@ Notre exemple d’application se compose de ces services Azure. Nous n’entrero
 + **Application Gateway** : Pour gérer l’accès aux applications et leur mise à l’échelle. 
 + **Base de données Azure SQL** : Pour stocker les données d’application. 
 
-# Tâche 1 : Déterminer les valeurs de pourcentage de la durée active du contrat de niveau de service pour notre application
+# Tâche 1 : Déterminer les valeurs de pourcentage de la durée active du contrat de niveau de service pour notre application (5 min)
 
 1. Dans un navigateur, accédez à la page [Résumé SLA pour les services Azure](https://azure.microsoft.com/fr-fr/support/legal/sla/summary/).
 

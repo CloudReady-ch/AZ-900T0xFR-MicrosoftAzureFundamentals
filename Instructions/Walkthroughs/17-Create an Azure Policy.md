@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '14 - Créer une stratégie Azure'
-    module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
+    title: '17 - Créer une stratégie Azure (10 min)'
+    module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
 ---
-# 14 - Créer une stratégie Azure
+# 17 - Créer une stratégie Azure
 
 Dans cette procédure pas à pas, nous allons créer une stratégie Azure Policy pour limiter le déploiement des ressources Azure à un emplacement spécifique.
 
-# Tâche 1 : Créer une affectation de stratégie
+# Tâche 1 : Créer une affectation de stratégie (10 min)
 
 Au cours de cette tâche, nous allons configurer la stratégie d’emplacements autorisés et l’affecter à notre abonnement. 
 

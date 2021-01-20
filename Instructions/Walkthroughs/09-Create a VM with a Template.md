@@ -1,13 +1,13 @@
 ---
 wts :
-    title: '09 - Créer une machine virtuelle avec un modèle'
-    module: 'Module 02 : Principaux services Azure'
+    title: '09 - Créer une machine virtuelle avec un modèle (10 min)'
+    module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
 ---
 # 09 - Créer une machine virtuelle avec un modèle
 
 Dans cette procédure pas à pas, nous allons déployer une machine virtuelle avec un modèle de démarrage rapide et examiner ses capacités de surveillance.
 
-# Tâche 1 : Découvrez la galerie et trouvez un modèle
+# Tâche 1 : Découvrez la galerie et trouvez un modèle (10 min)
 
 Dans cette tâche, nous allons parcourir la galerie de démarrage rapide Azure et déployer un modèle qui crée une machine virtuelle. 
 
@@ -41,9 +41,9 @@ Dans cette tâche, nous allons parcourir la galerie de démarrage rapide Azure e
     | Préfixe d’étiquette DNS | **myvmtemplate*xxxx*** |
     | Version de système d’exploitation Windows | **2019-Datacenter** |
     | | |
+    
+    ** Remarque : Il n’y a pas de coûts associés à l’utilisation de ce modèle.
 
-8. Cochez la case à cocher « J’accepte les termes et conditions énoncés ci-dessus » puis cliquez sur Acheter. 
-** Remarque : Il n’y a pas de coûts associés à l’utilisation de ce modèle.
 9. Cliquez sur **Examiner et créer**.
 
 10. Surveillez votre déploiement. 
@@ -66,7 +66,7 @@ Dans cette tâche, nous allons vérifier si la machine virtuelle s’est correct
 
     ![Capture d’écran des graphiques de surveillance des machines virtuelles.](../images/0903.png)
 
-5. Cliquez sur un graphique. Remarquez que vous pouvez **ajouter une métrique** et modifier le type de graphique. Si vous avez le temps, testez cette fonctionnalité. 
+5. Cliquez sur un graphique. Remarquez que vous pouvez **ajouter une métrique** et modifier le type de graphique.
 
 6. Revenez au panneau **Vue d’ensemble**.
 

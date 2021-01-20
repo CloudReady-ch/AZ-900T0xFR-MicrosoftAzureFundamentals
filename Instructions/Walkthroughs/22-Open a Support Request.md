@@ -1,14 +1,13 @@
 ---
 wts:
-    title: '21 - Ouvrir une demande de support'
-    module: 'Module 04 - Tarification et assistance Azure'
+    title: '22 - Ouvrir une demande de support (5 min)'
+    module: 'Non utilisé actuellement dans l’examen en cours'
 ---
-# 21 - Ouvrir une demande de support
-
+# 22 - Ouvrir une demande de support
 
 Dans cette procédure pas à pas, nous allons afficher les options de plan de support disponibles, puis nous entraîner à créer et à contrôler une nouvelle demande de support.
 
-# Tâche 1 : Afficher les options de plan de support disponibles et une demande de support technique
+# Tâche 1 : Afficher les options de plan de support disponibles et une demande de support technique (5 min)
 
 1. Connectez-vous au [**portail Azure**](https://portal.azure.com).
 

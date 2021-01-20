@@ -1,14 +1,14 @@
 ---
 wts:
-    title: '05 - Créer une base de données SQL'
-    module: 'Module 02 - Services de base d’Azure'
+    title: '06 - Créer une base de données SQL (5 min)'
+    module: 'Module 02 - Principaux services Azure (charges de travail)'
 ---
 
-# 05 - Créer une base de données SQL
+# 06 - Créer une base de données SQL
 
 Dans cette procédure pas à pas, nous allons créer une base de données SQL dans Azure, puis interroger les données de celle-ci.
 
-# Tâche 1 : Créer la base de données
+# Tâche 1 : Créer la base de données (5 min)
 
 Au cours de cette tâche, vous allez créer une base de données SQL basée sur l'exemple de base de données AdventureWorksLT. 
 
@@ -62,7 +62,7 @@ Au cours de cette tâche, vous allez créer une base de données SQL basée sur 
 
 6. Cliquez sur **Examiner et créer** puis cliquez sur **Créer** pour déployer et approvisionner le groupe de ressources, le serveur et la base de données. Le déploiement peut prendre jusqu'à 5 minutes.
 
-7. Surveillez votre déploiement. 
+7. Accédez à l’onglet Ressources pour localiser la base de données SQL que vous avez créée. Il se peut qu’une actualisation soit requise.
 
 # Tâche 2 : Testez la base de données.
 

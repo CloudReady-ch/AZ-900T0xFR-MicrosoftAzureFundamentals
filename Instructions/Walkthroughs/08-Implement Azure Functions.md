@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '07 - Implémenter des fonctions Azure'
-    module: 'Module 02 - Services de base d’Azure'
+    title: '08 - Implémenter des fonctions Azure (5 min)'
+    module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
 ---
-# 07 - Implémenter des fonctions Azure
+# 08 - Implémenter des fonctions Azure
 
 Dans cette procédure pas à pas, nous allons créer une application de fonction pour afficher un message Hello en cas de requête HTTP. 
 
-# Tâche 1 : Créer une application de fonction
+# Tâche 1 : Créer une application de fonction (5 min)
 
 Dans cette tâche, nous allons créer une application de fonction.
 
@@ -24,8 +24,11 @@ Dans cette tâche, nous allons créer une application de fonction.
     | Nom de l’application de fonction | **fonction-xxxx** |
     | Publier | **Code** |
     | Pile d’exécution | **NET Core** |
+    | Version | **3.1** |
     | Région | **USA Est** |
-    | | |	
+    | | |
+
+    **Remarque** - Veillez à modifier la valeur **xxxx** pour créer un **Nom d’application de fonction** unique
 
 1. Cliquez sur **Examiner et créer** puis, après la validation, cliquez sur **Créer** pour commencer l’approvisionnement et le déploiement de votre nouvelle application de fonction Azure.
 

@@ -1,13 +1,13 @@
 ---
 wts :
-    title: '04 - Créer un stockage d’objets blob'
-    module: 'Module 02 : Principaux services Azure'
+    title: '05 - Créer un stockage d’objets blob (5 min)'
+    module: 'Module 02 - Principaux services Azure (charges de travail)'
 ---
-# 04 - Créer un stockage d’objets blob
+# 05 - Créer un stockage d’objets blob
 
 Dans cette procédure pas à pas, nous allons créer un compte de stockage, puis travailler avec des fichiers de stockage d’objets blob.
 
-# Tâche 1 : Créer un compte de stockage
+# Tâche 1 : Créer un compte de stockage (5 min)
 
 Dans cette tâche, vous allez créer un nouveau compte de stockage. 
 
@@ -26,8 +26,9 @@ Dans cette tâche, vous allez créer un nouveau compte de stockage.
     | Performances | **Standard** |
     | Type de compte | **StorageV2 (usage général v2)** |
     | Réplication | **Stockage localement redondant (LRS)** |
-    | Niveau d’accès (par défaut) | **Chaud** |
     | | |
+
+    **Remarque** - Veillez à modifier la valeur **xxxx** pour créer un **Nom de compte de stockage** unique
 
 5. Cliquez sur **Examiner et créer** pour réviser les paramètres de votre compte de stockage et autoriser Azure à valider la configuration. 
 

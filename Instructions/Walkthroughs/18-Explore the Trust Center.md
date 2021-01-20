@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '18 - Explorer le Centre de gestion de la confidentialité'
-    module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
+    title: '18 - Explorer le Centre de gestion de la confidentialité (5 min)'
+    module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
 ---
 # 18 - Explorer le Centre de gestion de la confidentialité
 
 Dans cette procédure pas à pas, nous accéderons au Centre de gestion de la confidentialité, au Portail d’approbation de services (STP) et au Gestionnaire de conformité.
 
-# Tâche 1 : Accéder au Centre de gestion de la confidentialité
+# Tâche 1 : Accéder au Centre de gestion de la confidentialité (5 min)
 
 1. Dans un navigateur, accédez à la page [Offres relatives à la conformité du Centre de gestion de conformité Microsoft](https://docs.microsoft.com/fr-fr/microsoft-365/compliance/offering-home).
 

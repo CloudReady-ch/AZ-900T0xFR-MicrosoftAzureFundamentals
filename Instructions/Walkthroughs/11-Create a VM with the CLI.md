@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '11 - Créer une machine virtuelle avec la CLI'
-    module: 'Module 02 - Services de base d’Azure'
+    title: '11 - Créer une machine virtuelle avec la CLI (10 min)'
+    module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
 ---
 # 11 - Créer une machine virtuelle avec la CLI
 
 Dans cette procédure pas à pas, nous allons configurer Cloud Shell, utiliser Azure CLI pour créer un groupe de ressources et une machine virtuelle, et passer en revue les recommandations Azure Advisor. 
 
-# Tâche 1 : Configurer Cloud Shell
+# Tâche 1 : Configurer Cloud Shell (10 min)
 
 Dans cette tâche, nous allons configurer Cloud Shell. 
 

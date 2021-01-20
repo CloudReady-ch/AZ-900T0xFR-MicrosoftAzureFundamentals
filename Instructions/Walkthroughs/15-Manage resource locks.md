@@ -1,13 +1,13 @@
 ---
 wts :
-    title: '16 - Gérer les verrous de ressources'
-    module: 'Module 03 : Sécurité, confidentialité, conformité et fiabilité'
+    title: '15 - Gérer les verrous de ressources (5 min)'
+    module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
 ---
-# 16 - Gérer les verrous de ressources
+# 15 - Gérer les verrous de ressources
 
 Dans cette procédure pas à pas, nous allons créer un groupe de ressources, ajouter un verrou au groupe de ressources et tester la suppression d'une ressource dans le groupe de ressources, puis supprimer le verrou de ressource. 
 
-# Tâche 1 : Créer un groupe de ressources
+# Tâche 1 : Créer un groupe de ressources (5 min)
 
 Au cours de cette tâche, nous allons créer un groupe de ressources pour cet exercice. 
 

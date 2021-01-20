@@ -1,13 +1,13 @@
 ---
 wts :
-    title: '02 - Créer une application Web'
+    title: '02 - Créer une application Web (10 min)'
     module: 'Module 02 : Principaux services Azure (charges de travail)'
 ---
 # 02 - Créer une application web
 
 Dans cette procédure pas à pas, nous allons créer une nouvelle application web qui exécute un conteneur Docker. Le conteneur affiche un message de bienvenue. 
 
-# Tâche 1 : Créer une application web
+# Tâche 1 : Créer une application web (10 min)
 
 Azure App Service est en fait un ensemble de quatre services, tous conçus pour vous aider à héberger et exécuter des applications Web. Les quatre services (Web Apps, Mobile Apps, API Apps et Logic Apps) sont différents, mais au final, ils fonctionnent tous de manière très similaire. Les Web Apps sont les plus couramment utilisées des quatre services, et c’est le service que nous utiliserons dans ce labo.
 
@@ -28,6 +28,8 @@ Dans cette tâche, vous allez créer une application Web Azure App Service.
     | Système d'exploitation | **Linux** |
     | Région | **Est des États-Unis** (ignorez les avertissements de disponibilité du plan de service) |
     | | |	
+    
+    **Remarque** - Veillez à modifier la valeur **xxxx** pour créer un **Nom** unique
 
 4. Cliquez sur **Suivant > Docker** et configurez les informations sur le conteneur. La commande start-up est facultative et n’est pas nécessaire dans cet exercice. 
 

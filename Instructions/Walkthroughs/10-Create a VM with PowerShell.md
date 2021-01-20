@@ -1,13 +1,13 @@
 ---
 wts :
-    title: '10 - Créer une machine virtuelle avec PowerShell'
-    module: 'Module 02 : Principaux services Azure'
+    title: '10 - Créer une machine virtuelle avec PowerShell (10 min)'
+    module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
 ---
 # 10 - Créer une machine virtuelle avec PowerShell
 
 Dans cette procédure pas à pas, nous allons configurer Cloud Shell, utiliser le module Azure PowerShell pour créer un groupe de ressources et une machine virtuelle et enfin, passer en revue les suggestions d’Azure Advisor. 
 
-# Tâche 1 : Configurer Cloud Shell
+# Tâche 1 : Configurer Cloud Shell (10 min)
 
 Dans cette tâche, nous allons configurer Cloud Shell. 
 
@@ -19,7 +19,7 @@ Dans cette tâche, nous allons configurer Cloud Shell.
 
 3. Si vous avez déjà utilisé Cloud Shell, passez à la tâche suivante. 
 
-4. Lorsque vous êtes invité à sélectionner **Bash** ou **PowerShell**, sélectionnez **PowerShell**. 
+4. Lorsque vous êtes invité à sélectionner **Bash** ou **PowerShell**, sélectionnez **PowerShell**.
 
 5. Lorsque vous y êtes invité, cliquez sur **Créer l’espace de stockage** et attendez que Azure Cloud Shell s’initialise. 
 

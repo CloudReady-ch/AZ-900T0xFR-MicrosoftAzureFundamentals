@@ -1,6 +1,6 @@
 ---
 wts :
-    title: '03 - Déployer Azure Container Instances'
+    title: '03 - Déployer Azure Container Instances (10 min)'
     module: 'Module 02 : Principaux services Azure (charges de travail)'
 ---
 
@@ -8,7 +8,7 @@ wts :
 
 Dans cette procédure pas à pas, nous allons créer, configurer et déployer un conteneur Docker à l’aide d’ACI (Azure Container Instances) dans le portail Azure. Le conteneur est une application web Welcome to ACI qui affiche une page HTML statique. 
 
-# Tâche 1 : Créer une instance de conteneur
+# Tâche 1 : Créer une instance de conteneur (10 min)
 
 Dans cette tâche, nous allons créer une nouvelle instance de conteneur pour l’application web. 
 
@@ -31,7 +31,6 @@ Dans cette tâche, nous allons créer une nouvelle instance de conteneur pour l�
 	| Taille| ***Laissez la valeur par défaut***|
 	|||
 
-
 4. Configurez l’onglet Mise en réseau (remplacez **xxxx** par des lettres et des chiffres pour obtenir un nom unique au monde). Conservez les valeurs par défaut pour tous les autres paramètres.
 
 	| Paramètre| Valeur|
@@ -39,7 +38,8 @@ Dans cette tâche, nous allons créer une nouvelle instance de conteneur pour l�
 	| Étiquette du nom DNS| **mycontainerdnsxxxx** |
 	|||
 	
-	**Remarque** : Votre conteneur sera accessible au public à l’adresse : dns-name-label.region.azurecontainer.io. Si vous recevez un message d’erreur du type **Étiquette de nom DNS non disponible** après le déploiement, spécifiez une autre étiquette de nom DNS et recommencez le processus de déploiement.
+	**Remarque** : Votre conteneur sera accessible au public à l’adresse : dns-name-label.region.azurecontainer.io. Si vous recevez le message d’erreur **Nom DNS non disponible** à la fin du déploiement, spécifiez un autre nom DNS (autre que xxxx) et procédez à un nouveau déploiement.
+
 
 	![Capture d’écran du volet de configuration du panneau Créer des instances de conteneur, dans le portail Azure, avec l’étiquette de nom DNS. ](../images/0201.png)
 

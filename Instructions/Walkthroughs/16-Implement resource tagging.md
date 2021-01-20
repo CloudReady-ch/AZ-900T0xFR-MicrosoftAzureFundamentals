@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '17 - Implémenter le balisage des ressources'
-    module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
+    title: '16 - Implémenter le balisage des ressources (5 min)'
+    module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
 ---
-# 17 - Implémenter le balisage des ressources
+# 16 - Implémenter le balisage des ressources
 
 Au cours de cette procédure pas à pas, nous allons créer une affectation de stratégie qui exige un balisage, créer un compte de stockage et tester le balisage, afficher les ressources avec une balise spécifique et supprimer la stratégie de balisage.
 
-# Tâche 1 : Créer une affectation de stratégie
+# Tâche 1 : Créer une affectation de stratégie (5 min)
 
 Dans cette tâche, nous allons configurer la stratégie **Exiger une balise pour les ressources** et l’assigner à notre abonnement. 
 
@@ -58,6 +58,8 @@ Dans cette tâche, nous allons créer des comptes de stockage pour tester le bal
     **Remarque :** Si vous affichez l’onglet Erreur brute, vous verrez le nom de balise spécifique requis. 
 
     ![Capture d’écran de refus en raison d’une erreur de stratégie.](../images/1704.png)
+
+    **Remarque - L’étiquetage peut prendre jusqu’à 30 minutes.** 
 
 5. Fermez le volet **Erreur** et cliquez sur **Précédent** (au bas de l’écran). Fournissez les informations de balisage. 
 

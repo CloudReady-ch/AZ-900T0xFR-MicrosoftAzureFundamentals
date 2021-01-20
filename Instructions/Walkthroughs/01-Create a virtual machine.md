@@ -1,6 +1,6 @@
 ---
 wts :
-    title: '01 - Créer une machine virtuelle dans le portail'
+    title: '01 - Créer une machine virtuelle dans le portail (10 min)'
     module: 'Module 02 : Principaux services Azure (charges de travail)'
 ---
 # 01 - Créer une machine virtuelle dans le portail
@@ -9,7 +9,7 @@ Au cours de cette procédure pas à pas, nous allons créer une machine virtuell
 
 **Remarque** : Au cours de cette procédure pas à pas, prenez le temps de lire les informations en cliquant sur les icônes correspondantes. 
 
-# Tâche 1 : Création de la machine virtuelle
+# Tâche 1 : Création de la machine virtuelle (10 min)
 
 Au cours de cette tâche, nous allons créer une machine - Gen1 virtuelle de centre de données Windows Server 2019. 
 
@@ -39,6 +39,8 @@ Au cours de cette tâche, nous allons créer une machine - Gen1 virtuelle de cen
     | Sélectionner des ports d’entrée | **HTTP (80), RDP (3389)**|
     | | |
 
+    **Remarque** - Vérifiez si les ports 80 et 3389 sont sélectionnés
+
 5. Accédez à l’onglet Gestion. Dans la section **Surveillance**, sélectionnez le paramètre suivant :
 
     | Paramètres | Valeurs |
@@ -51,7 +53,8 @@ Au cours de cette tâche, nous allons créer une machine - Gen1 virtuelle de cen
 7. Une fois la validation réussie, cliquez sur le bouton **Créer**. Le déploiement de la machine virtuelle peut prendre de cinq à sept minutes.
 
 8. Vous recevrez les mises à jour sur la page de déploiement et dans la zone **de notification** (icône représentant une cloche dans le menu supérieur).
-* Vérifiez que le port 80 a été ouvert 
+
+* **Vérifiez si les ports 80 et 3389 sont ouverts**
 
 # Tâche 2 : Connexion à la machine virtuelle
 

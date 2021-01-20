@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '13 - Implémenter Azure Key Vault'
-    module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
+    title: '12 - Implémenter Azure Key Vault (5 min)'
+    module: 'Module 04 : Décrire les caractéristiques générales de sécurité et de sécurité réseau'
 ---
-# 13 - Implémenter Azure Key Vault
+# 12 - Implémenter Azure Key Vault
 
 Dans cette procédure pas à pas, nous allons créer un coffre de clés Azure (Key vault), puis créer un mot de passe secret dans ce coffre de clés, fournissant un mot de passe stocké en toute sécurité et géré de manière centralisée en vue d’une utilisation dans les applications.
 
-# Tâche 1 : Crée une instance de coffre de clés Azure
+# Tâche 1 : Crée une instance de coffre de clés Azure (5 min)
 
 1. Connectez-vous au [portail Azure](https://portal.azure.com).
 

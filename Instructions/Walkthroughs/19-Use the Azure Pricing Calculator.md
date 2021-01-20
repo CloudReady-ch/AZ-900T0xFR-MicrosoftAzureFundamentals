@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '19 - Utilisation du calculateur de prix appliqués Azure'
-    module: 'Module 04 - Tarification et assistance Azure'
+    title: '19 - Utilisation du calculateur de prix appliqués Azure (10 min)'
+    module: 'Module 06 : Décrire la gestion des coûts et les accords de niveau de service d’Azure'
 ---
 # 19 - Utilisation du calculateur de prix appliqués
 
 Dans cette procédure pas à pas, nous utiliserons la calculatrice de prix Azure pour générer une estimation des coûts pour une machine virtuelle Azure et les ressources réseau associées.
 
-# Tâche 1 : Configurer la calculatrice de prix
+# Tâche 1 : Configurer la calculatrice de prix (10 min)
 
 Dans cette tâche, nous allons estimer le coût d’un échantillon d’infrastructure à l’aide de la calculatrice de prix Azure. 
 

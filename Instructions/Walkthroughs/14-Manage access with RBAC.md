@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '15 - Gérer l’accès avec RBAC'
-    module: 'Module 03 - Sécurité, confidentialité, conformité et fiabilité'
+    title: '14 - Gérer l’accès avec RBAC (5 min)'
+    module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
 ---
-# 15 - Gérer l’accès avec RBAC
+# 14 - Gérer l’accès avec RBAC
 
 Dans cette procédure pas à pas, nous allons attribuer des rôles et afficher des journaux d’activité. 
 
-# Tâche 1 : Afficher et attribuer des rôles
+# Tâche 1 : Afficher et attribuer des rôles (5 min)
 
 Dans cette tâche, nous allons attribuer le rôle de contributeur de machine virtuelle. 
 
@@ -37,7 +37,7 @@ Dans cette tâche, nous allons attribuer le rôle de contributeur de machine vir
     | Paramètre | Valeur |
     | -- | -- |
     | Rôle | **Contributeur de machine virtuelle** |
-    | Octroyer l’accès à | **Utilisateur, groupe ou principal de service Azure AD** |
+    | Octroyer l’accès à | **Utilisateur, groupe ou principal de service** |
     | Sélectionnez | votre compte d’utilisateur |
     | | |
 

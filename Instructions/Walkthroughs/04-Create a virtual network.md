@@ -1,5 +1,5 @@
 ---
-wts :
+wts:
     title: '04 - Créer un réseau virtuel (20 min)'
     module: 'Module 02 - Principaux services Azure (charges de travail)'
 ---

@@ -1,5 +1,5 @@
 ---
-wts :
+wts:
     title: '13 - Sécuriser le trafic réseau (10 min)'
     module: 'Module 04 : Décrire les caractéristiques générales de sécurité et de sécurité réseau'
 ---

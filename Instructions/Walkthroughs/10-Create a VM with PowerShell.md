@@ -1,5 +1,5 @@
 ---
-wts :
+wts:
     title: '10 - Créer une machine virtuelle avec PowerShell (10 min)'
     module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
 ---

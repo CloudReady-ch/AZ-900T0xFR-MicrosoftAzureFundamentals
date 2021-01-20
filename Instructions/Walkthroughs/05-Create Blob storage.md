@@ -1,5 +1,5 @@
 ---
-wts :
+wts:
     title: '05 - Créer un stockage d’objets blob (5 min)'
     module: 'Module 02 - Principaux services Azure (charges de travail)'
 ---

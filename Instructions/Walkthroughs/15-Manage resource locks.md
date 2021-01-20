@@ -1,5 +1,5 @@
 ---
-wts :
+wts:
     title: '15 - Gérer les verrous de ressources (5 min)'
     module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
 ---

@@ -1,5 +1,5 @@
 ---
-wts :
+wts:
     title: '09 - Créer une machine virtuelle avec un modèle (10 min)'
     module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
 ---

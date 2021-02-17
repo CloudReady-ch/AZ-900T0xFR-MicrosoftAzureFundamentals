@@ -1,11 +1,11 @@
 ---
 wts:
     title: '10 - Créer une machine virtuelle avec PowerShell (10 min)'
-    module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
+    module: 'Module 03 : Décrire les solutions principales et les outils de gestion'
 ---
 # 10 - Créer une machine virtuelle avec PowerShell
 
-Dans cette procédure pas à pas, nous allons configurer Cloud Shell, utiliser le module Azure PowerShell pour créer un groupe de ressources et une machine virtuelle et enfin, passer en revue les suggestions d’Azure Advisor. 
+Dans cette procédure pas à pas, nous allons configurer Cloud Shell, utiliser le module Azure PowerShell pour créer un groupe de ressources et une machine virtuelle et, enfin, passer en revue les suggestions d’Azure Advisor. 
 
 # Tâche 1 : Configurer Cloud Shell (10 min)
 
@@ -13,7 +13,7 @@ Dans cette tâche, nous allons configurer Cloud Shell.
 
 1. Connectez-vous au [portail Azure](https://portal.azure.com).
 
-2. Dans le portail Azure, ouvrez **Azure Cloud Shell** en cliquant sur l’icône en haut à droite du portail Azure.
+2. Dans le portail Azure, ouvrez **Azure Cloud Shell** en cliquant sur l’icône située en haut à droite du portail Azure.
 
     ![Capture d’écran de l’icône Azure Cloud Shell dans le portail Azure.](../images/1002.png)
 
@@ -47,13 +47,13 @@ Dans cette tâche, nous allons utiliser PowerShell pour créer un groupe de ress
     New-AzVm `
     -ResourceGroupName "myRGPS" `
     -Name "myVMPS" `
-    -Location "East US" `
+    -Location "USA Est" `
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-** Attendez le déploiement de la VM avant de fermer PowerShell
+** Attendez le déploiement de la machine virtuelle avant de fermer PowerShell
 
 5. Fermez le volet Cloud Shell de la session PowerShell.
 
@@ -67,7 +67,7 @@ Dans cette tâche, nous allons utiliser PowerShell pour créer un groupe de ress
 
 Dans cette tâche, nous nous entraînerons à exécuter des commandes PowerShell à partir de Cloud Shell. 
 
-1. Dans le portail Azure, ouvrez **Azure Cloud Shell** en cliquant sur l’icône en haut à droite du portail Azure.
+1. Dans le portail Azure, ouvrez **Azure Cloud Shell** en cliquant sur l’icône située en haut à droite du portail Azure.
 
 2. Vérifiez que **PowerShell** est sélectionné dans le menu déroulant en haut à gauche du volet Cloud Shell.
 
@@ -83,17 +83,17 @@ Dans cette tâche, nous nous entraînerons à exécuter des commandes PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
     ```
 
-5. Vérifiez l’état de votre machine virtuelle. PowerState devrait maintenant indiquer **Désalloué**. Vous pouvez également vérifier l’état de la machine virtuelle dans le portail. 
+5. Vérifiez l’état de votre machine virtuelle. PowerState doit maintenant indiquer **Désalloué**. Vous pouvez également vérifier l’état de la machine virtuelle dans le portail. 
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-# Tâche 4 : Consultation des suggestions d’Azure Advisor
+# Tâche 4 : Consultation des suggestions dans Azure Advisor
 
-**Remarque :** Cette même tâche se trouve dans le labo Créer une machine virtuelle avec Azure CLI. 
+**Remarque :** Cette même tâche est proposée dans le labo Créer une machine virtuelle avec Azure CLI. 
 
-Dans cette tâche, nous allons passer en revue les suggestions d’Azure Advisor pour notre machine virtuelle. 
+Dans cette tâche, nous allons passer en revue les suggestions proposées dans Azure Advisor pour notre machine virtuelle. 
 
 1. Dans le panneau **Tous les services**, recherchez et sélectionnez **Advisor**. 
 
@@ -103,13 +103,13 @@ Dans cette tâche, nous allons passer en revue les suggestions d’Azure Advisor
 
 3. Sélectionnez **Toutes les suggestions** et prenez le temps de consulter toutes les suggestions et actions suggérées. 
 
-    **Remarque :** Selon vos ressources, vos suggestions seront différentes. 
+    **Remarque :** Selon vos ressources, vos suggestions peuvent différer. 
 
     ![Capture d’écran de la page Toutes les suggestions Advisor. ](../images/1004.png)
 
 4. Notez que vous pouvez télécharger les suggestions au format CSV ou PDF. 
 
-5. Notez que vous pouvez créer des alertes. 
+5. Notez également que vous pouvez créer des alertes. 
 
 6. Si vous avez le temps, continuez à expérimenter Azure PowerShell. 
 

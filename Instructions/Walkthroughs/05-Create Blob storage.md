@@ -22,10 +22,10 @@ Dans cette tâche, vous allez créer un nouveau compte de stockage.
     | Abonnement | **Choisir votre abonnement** |
     | Groupe de ressources | **myRGStorage** (créer un nouveau) |
     | Nom du compte de stockage | **storageaccountxxxx** |
-    | Lieu | **(États-Unis) USA Est**  |
+    | Emplacement | **(États-Unis) USA Est**  |
     | Performances | **Standard** |
     | Type de compte | **StorageV2 (usage général v2)** |
-    | Réplication | **Stockage localement redondant (LRS)** |
+    | Réplication | **Stockage localement redondant** |
     | | |
 
     **Remarque** - Veillez à modifier la valeur **xxxx** pour créer un **Nom de compte de stockage** unique
@@ -40,7 +40,7 @@ Dans cette tâche, vous allez créer un nouveau compte de stockage.
 
 # Tâche 2 : Utiliser le stockage Blob
 
-Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d’objet blob. 
+Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d’objets blob. 
 
 1. Cliquez sur le nom du nouveau compte de stockage, défilez jusqu’à la section **Service BLOB**, puis cliquez sur **Conteneurs**.
 
@@ -59,7 +59,7 @@ Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d�
 
 5. Accédez à un fichier sur votre ordinateur local. 
 
-    **Remarque** : Vous pouvez créer un fichier vide `.txt` ou utiliser n’importe quel fichier existant. Pensez à choisir un fichier de petite taille pour réduire le temps de chargement.
+    **Remarque** : Vous pouvez créer un fichier vide « .txt » ou utiliser n’importe quel fichier existant. Pensez à choisir un fichier de petite taille pour réduire le temps de chargement.
 
 6. Cliquez sur la flèche **Avancée**, laissez les valeurs par défaut mais passez en revue les options disponibles, puis cliquez sur **Charger**.
 
@@ -69,15 +69,15 @@ Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d�
 
 8. Si vous avez du temps, depuis le panneau de compte de stockage, passez en revue les options pour les fichiers, les tables et les files d’attente.
 
-# Tâche 3 : Surveillez le compte de stockage
+# Tâche 3 : Surveiller le compte de stockage
 
-1. Si nécessaire, revenez au panneau de compte de stockage et cliquez sur **Diagnostiquer et résoudre les problèmes**. 
+1. Si nécessaire, revenez au panneau présentant le compte de stockage et cliquez sur **Diagnostiquer et résoudre les problèmes**. 
 
 2. Découvrez certains des problèmes de stockage les plus courants. Notez qu’il existe plusieurs utilitaires de résolution des problèmes.
 
-3. Dans le panneau du compte de stockage, défilez vers le bas jusqu’à la section **Surveillance**, puis cliquez sur **Insights**. Notez qu’il existe des informations sur les pannes, les performances, la disponibilité et la capacité. Vos informations seront différentes.
+3. Dans le panneau du compte de stockage, défilez vers le bas jusqu’à la section **Surveillance**, puis cliquez sur **Insights **. Notez qu’il existe des informations sur les pannes, les performances, la disponibilité et la capacité. Vos informations seront différentes.
 
-    ![Capture d’écran de la page Informations du compte de stockage.](../images/0403.png)
+    ![Capture d’écran de la page Informations du compte de stockage.](../images/0403.PNG)
 
 Félicitations ! Vous avez créé un compte de stockage, puis travaillé avec des objets blob de stockage.
 

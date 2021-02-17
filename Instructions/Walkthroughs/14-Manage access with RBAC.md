@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '14 - Gérer l’accès avec RBAC (5 min)'
-    module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
+    title: '14 - Gérer l’accès avec RBAC (5 min)'
+    module: 'Module 05 : Description des fonctions d’identité, de gouvernance, de confidentialité et de conformité'
 ---
 # 14 - Gérer l’accès avec RBAC
 
@@ -19,52 +19,52 @@ Dans cette tâche, nous allons attribuer le rôle de contributeur de machine vir
 
     | Paramètre | Valeur |
     | -- | -- |
-    | Abonnement | **Choisissez votre abonnement** |
+    | Abonnement | **Choisir votre abonnement** |
     | Groupe de ressources | **myRGRBAC** |
-    | Région | **(US) USA Est** |
+    | Région | **(États-Unis) USA Est** |
     | | |
 
 4. Créez **Contrôler + créer** puis cliquez sur **Créer**.
 
-5. **Actualisez** la page du groupe de ressources et cliquez sur l’entrée représentant le groupe de ressources nouvellement créé.
+5. **Actualisez** la page du groupe de ressources, puis cliquez sur l’entrée représentant le groupe de ressources nouvellement créé.
 
-6. Cliquez sur le panneau **Contrôle d’accès (IAM)**, puis passez à l’onglet **Rôles**. Faites défiler le grand nombre de définitions de rôles disponibles. Utilisez les icônes d’informations pour vous faire une idée des autorisations de chaque rôle. Notez qu’il existe également des informations sur le nombre d’utilisateurs et de groupes affectés à chaque rôle.
+6. Cliquez sur le panneau **Contrôle d’accès (IAM)**, puis cliquez sur l’onglet **Rôles**. Faites défiler le grand nombre de définitions de rôles disponibles. Utilisez les icônes d’informations pour vous faire une idée des autorisations de chaque rôle. Notez qu’il existe également des informations sur le nombre d’utilisateurs et de groupes affectés à chaque rôle.
 
     ![Capture d’écran du panneau des rôles IAM. Les rôles de propriétaire, de contributeur et de lecteur sont affichés.](../images/1501.png)
 
-7. Sous l’onglet **Attributions de rôle** du panneau **myRGRBAC - Contrôle d'accès (IAM)**, cliquez sur **+ Ajouter** puis cliquez sur **Ajouter une attribution de rôle**. Assignez le rôle Contributeur de machine virtuelle à votre compte d’utilisateur, puis cliquez sur **Enregistrer**. 
+7. Sous l’onglet **Attributions de rôle** du panneau **myRGRBAC - Contrôle d'accès (IAM)**, cliquez sur **+ Ajouter** puis cliquez sur **Ajouter une attribution de rôle**. Attribuez le rôle Contributeur de machine virtuelle à votre compte d’utilisateur, puis cliquez sur **Enregistrer**. 
 
     | Paramètre | Valeur |
     | -- | -- |
     | Rôle | **Contributeur de machine virtuelle** |
-    | Octroyer l’accès à | **Utilisateur, groupe ou principal de service** |
-    | Sélectionnez | votre compte d’utilisateur |
+    | Attribuer l’accès à | **Utilisateur, groupe ou principal du service** |
+    | Sélectionner | votre compte d’utilisateur |
     | | |
 
-    **Remarque :** Le rôle de contributeur de machine virtuelle vous permet de gérer des machines virtuelles, mais pas d’accéder à leur système d’exploitation ni de gérer le réseau virtuel et le compte de stockage auxquels ils sont connectés.
+    **Remarque :** Le rôle de contributeur de machine virtuelle permet de gérer des machines virtuelles, mais pas d’accéder à leur système d’exploitation ni de gérer le réseau virtuel et le compte de stockage auxquels ils sont connectés.
 
     ![Capture d’écran de la page Ajouter une attribution de rôle complétée avec les informations nécessaires.](../images/1502.png)
 
 8. **Rafraîchissez** la page Affectations des rôle et assurez-vous que vous êtes désormais répertorié en tant que contributeur de machine virtuelle. 
 
-    **Remarque**: Cette affectation ne vous octroie en fait aucun privilège supplémentaire, car votre compte a déjà le rôle Propriétaire, qui inclut tous les privilèges associés au rôle Contributeur.
+    **Remarque** : Cette affectation ne vous octroie en fait aucun privilège supplémentaire, car votre compte a déjà le rôle Propriétaire, qui inclut tous les privilèges associés au rôle Contributeur.
 
-# Tâche 2 : Contrôler les attributions de rôles et supprimer un rôle
+# Tâche 2 : Contrôler les attributions de rôles et supprimer un rôle
 
 Dans cette tâche, nous allons afficher le journal d’activité pour vérifier l’attribution de rôle, puis supprimer le rôle. 
 
-1. Sur le panneau Groupes de ressources myRGRBAC, cliquez sur **Journal d’activité**.
+1. Dans le panneau Groupes de ressources myRGRBAC, cliquez sur **Journal d’activité**.
 
 2. Cliquez sur **Ajouter un filtre**, sélectionnez **Opération**, puis **Créer une attribution de rôle**.
 
-    ![Capture d’écran de la page Journal d’activité avec filtre configuré.](../images/1503.png)
+    ![Capture d’écran de la page Journal d’activité avec un filtre configuré.](../images/1503.png)
 
 3. Vérifiez que le journal d’activité affiche votre attribution de rôle. 
 
-    **Remarque**: Pouvez-vous comprendre comment supprimer votre attribution de rôle ?
+    **Remarque** : Pouvez-vous comprendre comment supprimer votre attribution de rôle ?
 
 Félicitations ! Vous avez attribué des rôles et affiché des journaux d’activité. 
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
 
 

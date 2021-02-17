@@ -5,7 +5,7 @@ wts:
 ---
 # 22 - Ouvrir une demande de support
 
-Dans cette procédure pas à pas, nous allons afficher les options de plan de support disponibles, puis nous entraîner à créer et à contrôler une nouvelle demande de support.
+Dans cette procédure pas à pas, nous allons afficher les options de plan de support disponibles, puis nous allons nous entraîner à créer et à contrôler une nouvelle demande de support.
 
 # Tâche 1 : Afficher les options de plan de support disponibles et une demande de support technique (5 min)
 
@@ -20,11 +20,11 @@ Dans cette procédure pas à pas, nous allons afficher les options de plan de su
     | Paramètre | Valeur|
     |----|--------|
     | Type de problème| **Technique** |
-    | Abonnement | **Choisissez votre abonnement** |
+    | Abonnement | **Choisir votre abonnement** |
     | Service | **Tous les services**, **Machine virtuelle sous Linux** |
     | Résumé | **L’accès au disque est très lent pour les gros fichiers** |
-    | Type de problème | **Niveau de performance des machines virtuelles** |
-    | Sous-type de problème | **Le débit du disque est inférieur au débit attendu** |    
+    | Type de problème | **Niveau de performance des  machines virtuelles** |
+    | Sous-type de problème | **Le débit du disque est plus lent que prévu** |    
     | | |
 
 5. Cliquez sur **Suivant : Solutions >>** et lisez les solutions recommandées.
@@ -33,14 +33,14 @@ Dans cette procédure pas à pas, nous allons afficher les options de plan de su
 
     **Remarque :** Nous allons terminer ici. Comprenez-vous comment soumettre une demande technique ?
 
-# Tâche 2 : Créer une demande de support pour la facturation
+# Tâche 2 : Créer une demande de support pour la facturation
 
 1. Retournez à la section **Nouvelle demande de support** et cliquez sur  l’onglet **Général**. 
 
     | Paramètre | Valeur|
     |----|--------|
     | Type de problème| **Facturation** |
-    | Abonnement | **Choisissez votre abonnement** |
+    | Abonnement | **Choisir votre abonnement** |
     | Résumé | **Les frais mensuels ne sont pas corrects** |
     | Type de problème | **Tarification** |
     | Sous-type de problème | **Aidez-moi à comprendre les tarifs des services** |    
@@ -56,4 +56,4 @@ Dans cette procédure pas à pas, nous allons afficher les options de plan de su
 
 Félicitations ! Vous avez affiché les options de plan de support disponibles et vous vous êtes entraîné à créer et à contrôler une nouvelle demande de support.
 
-**Remarque**: Cliquez pour plus d’informations sur la [**création d’un ticket de support Azure**](https://azure.microsoft.com/fr-fr/support/create-ticket).
+**Remarque** : Cliquez pour plus d’informations sur la [**création d’un ticket de support Azure**](https://azure.microsoft.com/fr-fr/support/create-ticket).

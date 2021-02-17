@@ -38,7 +38,7 @@ Dans cette tâche, nous allons créer une nouvelle instance de conteneur pour l�
 	| Étiquette du nom DNS| **mycontainerdnsxxxx** |
 	|||
 	
-	**Remarque** : Votre conteneur sera accessible au public à l’adresse : dns-name-label.region.azurecontainer.io. Si vous recevez le message d’erreur **Nom DNS non disponible** à la fin du déploiement, spécifiez un autre nom DNS (autre que xxxx) et procédez à un nouveau déploiement.
+	**Remarque** : Votre conteneur sera accessible au public à l’adresse : dns-name-label.region.azurecontainer.io. Si vous recevez le message d’erreur **Nom DNS non disponible** à la fin du déploiement, spécifiez un autre nom DNS (différent de xxxx) et procédez à un nouveau déploiement.. 
 
 
 	![Capture d’écran du volet de configuration du panneau Créer des instances de conteneur, dans le portail Azure, avec l’étiquette de nom DNS. ](../images/0201.png)
@@ -53,17 +53,17 @@ Dans cette tâche, nous allons créer une nouvelle instance de conteneur pour l�
 
 # Tâche 2 : Vérifier le déploiement de l’instance de conteneur
 
-Dans cette tâche, nous vérifions que l’instance de conteneur est en cours d’exécution, en nous assurant que la page d’accueil s’affiche.
+Dans cette tâche, nous vérifierons que l’instance de conteneur est en cours d’exécution, en nous assurant que la page d’accueil s’affiche.
 
 1. Une fois le déploiement terminé, cliquez sur le lien **Accéder à la ressource** sur le panneau de déploiement ou sur le lien vers la ressource dans la zone de notification.
 
 2. Dans le panneau **Aperçu** de **mycontainer**, assurez-vous que le **Statut** de votre conteneur est bien **En cours d’exécution**. 
 
-3. Recherchez le nom de domaine complet (Fully Qualified Domain Name ou FQDN).
+3. Recherchez le nom de domaine complet (FQDN, Fully Qualified Domain Name).
 
 	![Capture d’écran du volet de vue d’ensemble du conteneur nouvellement créé dans le portail Azure, avec le nom de domaine complet en surbrillance. ](../images/0202.png)
 
-2. Copiez le nom de domaine complet du conteneur dans la zone de texte URL du navigateur Web et appuyez sur **Entrée**. La page d’accueil devrait s’afficher. 
+2. Copiez le nom de domaine complet du conteneur dans la zone de texte URL du navigateur web et appuyez sur **Entrée**. La page d’accueil s’affiche. 
 
 	![Capture d’écran du message de bienvenue ACI affiché dans un navigateur web.](../images/0203.png)
 

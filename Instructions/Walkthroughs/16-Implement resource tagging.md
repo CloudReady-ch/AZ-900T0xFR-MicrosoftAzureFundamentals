@@ -1,7 +1,7 @@
 ---
 wts:
     title: '16 - Implémenter le balisage des ressources (5 min)'
-    module: 'Module 05 : Décrire les caractéristiques d’identité, de gouvernance, de confidentialité et de conformité'
+    module: 'Module 05 : Description des fonctions d’identité, de gouvernance, de confidentialité et de conformité'
 ---
 # 16 - Implémenter le balisage des ressources
 
@@ -9,7 +9,7 @@ Au cours de cette procédure pas à pas, nous allons créer une affectation de s
 
 # Tâche 1 : Créer une affectation de stratégie (5 min)
 
-Dans cette tâche, nous allons configurer la stratégie **Exiger une balise pour les ressources** et l’assigner à notre abonnement. 
+Au cours de cette tâche, nous allons configurer la stratégie **Exiger une balise pour les ressources** et l’assigner à notre abonnement. 
 
 1. Connectez-vous au [portail Azure](https://portal.azure.com).
 
@@ -19,9 +19,9 @@ Dans cette tâche, nous allons configurer la stratégie **Exiger une balise pour
 
 4. Notez que la **Portée** de notre stratégie sera valable au niveau de l’abonnement. 
 
-5. Sélectionnez le bouton affichant des points de suspension en regard de la zone  **Définition de la stratégie** (fin de la zone de texte à droite). **Recherchez** les définitions de stratégie, y compris la **balise** de valeur, dans le jeu de résultats. Cliquez sur la définition **Exiger une balise pour les ressources**, puis sur **Sélectionner**.
+5. Sélectionnez le bouton affichant des points de suspension en regard de la zone **Définition de la stratégie** (fin de la zone de texte à droite). **Recherchez** les définitions de stratégie, y compris la **balise** de valeur, dans le jeu de résultats. Cliquez sur la définition **Exiger une balise pour les ressources**, puis sur **Sélectionner**.
 
-   ![Capture d’écran du volet Définitions disponibles avec l’option Exiger une balise pour les ressources sélectionnée.](../images/1701.png)
+   ![Capture d’écran du volet Définitions disponibles avec l’option Exiger une balise pour les ressources activée.](../images/1701.png)
 
 6. Dans le panneau **Attribuer une stratégie**, sous l’onglet **Paramètres**, tapez **Entreprise** comme nom de balise. Cliquez sur **Examiner et créer**, puis sur **Créer**.
 
@@ -33,20 +33,20 @@ Dans cette tâche, nous allons configurer la stratégie **Exiger une balise pour
 
    ![Capture d’écran du volet Stratégie - Affectations avec l’affectation des emplacements autorisés en surbrillance.](../images/1703.png)
 
-# Tâche 2 : Créer un compte de stockage pour tester le balisage requis
+# Tâche 2 : Créer un compte de stockage pour tester le balisage requis
 
-Dans cette tâche, nous allons créer des comptes de stockage pour tester le balisage requis. 
+Au cours de cette tâche, nous allons créer des comptes de stockage pour tester le balisage requis. 
 
 1. Dans le portail Azure, dans le panneau **Tous les services**, recherchez et sélectionnez **Comptes de stockage**, puis cliquez sur **+ Ajouter**.
 
-2. Sous l’onglet **Informations de base** du panneau **Créer un compte de stockage**, remplissez les informations suivantes (remplacez **xxxx** dans le nom du compte de stockage par des lettres et des chiffres de sorte que le nom soit unique au monde). Conservez les valeurs par défaut pour tous les autres éléments.
+2. Sous l’onglet **Informations de base** du panneau **Créer un compte de stockage**, remplissez les informations suivantes (remplacez **xxxx** dans le nom du compte de stockage par des lettres et des chiffres de sorte que le nom soit unique au monde). Laissez les valeurs par défaut pour tous les autres éléments.
 
     | Paramètre | Valeur | 
     | --- | --- |
     | Abonnement | **Utilisez votre abonnement** |
     | Groupe de ressources | **myRGTags** (nouveau) |
-    | Nom du compte de stockage : | **storageaccountxxxx** |
-    | Emplacement | **Est des États-Unis** |
+    | Nom du compte de stockage | **storageaccountxxxx** |
+    | Emplacement | **(États-Unis) USA Est** |
     | | |
 
 3. Cliquez sur **Examiner et créer**. 
@@ -59,7 +59,7 @@ Dans cette tâche, nous allons créer des comptes de stockage pour tester le bal
 
     ![Capture d’écran de refus en raison d’une erreur de stratégie.](../images/1704.png)
 
-    **Remarque - L’étiquetage peut prendre jusqu’à 30 minutes.** 
+    **Remarque : l’étiquetage peut prendre jusqu’à 30 minutes.** 
 
 5. Fermez le volet **Erreur** et cliquez sur **Précédent** (au bas de l’écran). Fournissez les informations de balisage. 
 
@@ -71,11 +71,11 @@ Dans cette tâche, nous allons créer des comptes de stockage pour tester le bal
 
 6. Cliquez sur **Examiner et créer** et vérifiez que la validation a réussi. Cliquez sur **Créer** pour déployer le compte de stockage. 
 
-# Tâche 3 : Afficher toutes les ressources avec une balise spécifique
+# Tâche 3 : Afficher toutes les ressources avec une balise spécifique
 
 1. Dans le portail Azure, dans le panneau **Tous les services**, recherchez et sélectionnez **Balises**.
 
-2. Notez toutes les balises et leurs valeurs. Cliquez sur la paire clé/valeur **Entreprise :** paire clé-valeur **Contoso**. Cette action affiche un panneau montrant le compte de stockage nouvellement créé, à condition que vous ayez inclus la balise lors de son déploiement. 
+2. Notez toutes les balises et leurs valeurs. Cliquez sur la paire clé-valeur **Entreprise : **Paire clé-valeur **Contoso**. Un panneau présentant le compte de stockage nouvellement créé s’affiche, à condition que vous ayez inclus la balise lors de son déploiement. 
 
    ![Capture d’écran des balises avec les options Entreprise et Contoso sélectionnées.](../images/1705.png)
 
@@ -85,15 +85,15 @@ Dans cette tâche, nous allons créer des comptes de stockage pour tester le bal
 
     ![Capture d’écran du filtre Toutes les ressources avec l’option Entreprise activée.](../images/1706.png)
 
-# Tâche 4 : Supprimer l’affectation de stratégie
+# Tâche 4 : Supprimer l’attribution de stratégie
 
-Dans cette tâche, nous allons supprimer la stratégie **Exiger une balise pour les ressources** afin de ne pas affecter nos travaux suivants. 
+Au cours de cette tâche, nous allons supprimer la stratégie **Exiger une balise pour les ressources** afin de ne pas affecter nos travaux suivants. 
 
 1. Dans le portail, depuis le panneau **Tous les services**, recherchez et sélectionnez **Stratégie**.
 
 2. Cliquez sur l’entrée de stratégie **Exiger une balise sur les ressources**.
 
-3. Cliquez sur **Supprimer l’affectation** dans le menu supérieur.
+3. Cliquez sur **Supprimer l’affectation** dans le menu principal.
 
 4. Confirmez la suppression de l’affectation de stratégie dans la boîte de dialogue **Supprimer l’affectation** en cliquant sur **Oui**.
 
@@ -102,4 +102,4 @@ Dans cette tâche, nous allons supprimer la stratégie **Exiger une balise pour 
 Au cours de cette procédure pas à pas, nous avons créé une affectation de stratégie qui exige un balisage. Nous avons également créé un compte de stockage et testé le balisage, affiché les ressources avec une balise spécifique et supprimé la stratégie de balisage.
 
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.

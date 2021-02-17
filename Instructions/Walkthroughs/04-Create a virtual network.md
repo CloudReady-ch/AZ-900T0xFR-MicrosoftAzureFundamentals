@@ -7,7 +7,7 @@ wts:
 
 Dans cette procédure pas à pas, nous allons créer un réseau virtuel, déployer deux machines virtuelles sur ce réseau virtuel, puis les configurer pour permettre à une machine virtuelle d’envoyer une requête ping à l’autre au sein de ce réseau virtuel.
 
-# Tâche 1 : Créer un réseau virtuel (20 min)
+# Tâche 1 : Créer un réseau virtuel (20 minutes)
 
 Dans cette tâche, nous allons créer un réseau virtuel. 
 

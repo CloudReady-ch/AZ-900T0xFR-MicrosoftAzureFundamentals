@@ -1,13 +1,13 @@
 ---
 wts:
     title: '07 - Implémenter un hub IoT Azure (10 min)'
-    module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
+    module: 'Module 03 : Décrire les solutions principales et les outils de gestion'
 ---
 # 07 - Implémenter un hub IoT Azure
 
 Dans cette procédure pas à pas, nous allons configurer un nouveau hub IoT Azure dans le portail Azure, puis authentifier une connexion à un appareil IoT à l’aide du simulateur d’appareil Raspberry Pi en ligne. Les données et les messages des capteurs sont transmis du simulateur Raspberry Pi à votre hub IoT Azure. Vous pouvez afficher des mesures pour l’activité de messagerie dans le portail Azure.
 
-# Tâche 1 : Créer un hub IoT (10 min)
+# Tâche 1 : Créer une ressource IoT Hub (10 min)
 
 Dans cette tâche, nous allons créer un hub IoT. 
 
@@ -19,15 +19,15 @@ Dans cette tâche, nous allons créer un hub IoT.
 
     | Paramètres | Valeur |
     |--|--|
-    | Abonnement | **Choisissez votre abonnement** |
+    | Abonnement | **Choisir votre abonnement** |
     | Groupe de ressources |  **myRGIoT** (créer un nouveau)|
     | Région | **USA Est** |
-    | Nom de l’hub IoT | **my-hub-groupxxxx** |
+    | Nom du hub IoT | **my-hub-groupxxxx** |
     | | |
 
     **Remarque** - Veillez à modifier la valeur **xxxx** pour créer un **Nom de Hub IoT** unique.
 
-4. Accédez à l’onglet **Gestion** et définissez la valeur de **Tarification et niveau d’échelle** sur **S1 : Niveau Standard**.
+4. Accédez à l’onglet **Gestion** et définissez la valeur de **Tarification et niveau d’échelle** sur **S1 : Niveau standard**.
 
 5. Cliquez sur le bouton **Examiner et créer**.
 
@@ -35,11 +35,11 @@ Dans cette tâche, nous allons créer un hub IoT.
 
 7. Attendez que l’instance hub IoT Azure soit déployée. 
 
-# Tâche 2 : Ajouter un appareil IoT
+# Tâche 2 : Ajouter un appareil IoT
 
 Dans cette tâche, nous allons ajouter un appareil IoT au hub IoT. 
 
-1. Une fois le déploiement terminé, cliquez sur **Aller à la ressource** dans le panneau de déploiement. Une autre solution consiste, à partir du panneau **Tous les services**, à rechercher et sélectionner **hub IoT** et à localiser votre nouvelle instance hub IoT
+1. Une fois le déploiement terminé, cliquez sur **Accéder à la ressource** dans le panneau de déploiement. Une autre solution consiste, à partir du panneau **Tous les services**, à rechercher et sélectionner **hub IoT** et à localiser votre nouvelle instance hub IoT
 
 	![Capture d’écran des notifications de déploiement en cours et de déploiement réussi dans le portail Azure.](../images/0601.png)
 
@@ -55,7 +55,7 @@ Dans cette tâche, nous allons ajouter un appareil IoT au hub IoT.
 
 	![Capture d’écran de la page Chaîne de connexion principale avec icône de copie en surbrillance.](../images/0603.png)
 
-# Tâche 3 : Tester l’appareil à l’aide du simulateur Raspberry Pi
+# Tâche 3 : Tester l’appareil à l’aide du simulateur Raspberry Pi
 
 Dans cette tâche, nous allons tester notre appareil à l’aide du simulateur Raspberry Pi. 
 
@@ -82,4 +82,4 @@ Dans cette tâche, nous allons tester notre appareil à l’aide du simulateur R
 
 Félicitations ! Vous avez configuré le hub IoT Azure pour collecter les données des capteurs à partir d’un appareil IoT.
 
-**Remarque**: Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.
+**Remarque** : Pour éviter des coûts supplémentaires, vous pouvez supprimer ce groupe de ressources. Recherchez des groupes de ressources, cliquez sur votre groupe de ressources, puis sur **Supprimer le groupe de ressources**. Vérifiez le nom du groupe de ressources, puis cliquez sur **Supprimer**. Surveillez les **notifications** pour voir comment se déroule la suppression.

@@ -1,13 +1,13 @@
 ---
 wts:
     title: '09 - Créer une machine virtuelle avec un modèle (10 min)'
-    module: 'Module 03 : Décrire les solutions de base et les outils de gestion dans Azure'
+    module: 'Module 03 : Décrire les solutions principales et les outils de gestion'
 ---
 # 09 - Créer une machine virtuelle avec un modèle
 
 Dans cette procédure pas à pas, nous allons déployer une machine virtuelle avec un modèle de démarrage rapide et examiner ses capacités de surveillance.
 
-# Tâche 1 : Découvrez la galerie et trouvez un modèle (10 min)
+# Tâche 1 : Parcourir la galerie et trouver un modèle (10 min)
 
 Dans cette tâche, nous allons parcourir la galerie de démarrage rapide Azure et déployer un modèle qui crée une machine virtuelle. 
 
@@ -25,7 +25,7 @@ Dans cette tâche, nous allons parcourir la galerie de démarrage rapide Azure e
 
 5. Si vous y êtes invité, connectez-vous à l’abonnement Azure que vous souhaitez utiliser dans ce labo.
 
-6. Cliquez sur **Modifier le modèle**. Le format de modèle Resource Manager utilise le format JSON. Vérifiez les paramètres et les variables.  Localisez ensuite le paramètre du nom de la machine virtuelle. Changez le nom en **myVMTemplate**. **Sauvegardez** vos modifications. Vous êtes redirigé vers le panneau **Déploiement personnalisé** dans le portail Azure.
+6. Cliquez sur **Modifier le modèle**. Le format de modèle Resource Manager utilise le format JSON. Vérifiez les paramètres et les variables.  Localisez ensuite le paramètre du nom de la machine virtuelle. Remplacez le nom par **myVMTemplate**. **Enregistrez** vos modifications. Vous êtes redirigé vers le panneau **Déploiement personnalisé** dans le portail Azure.
 
     ![Capture d’écran du modèle avec le changement de nom de la machine virtuelle en surbrillance.](../images/0901.png)
 
@@ -35,11 +35,11 @@ Dans cette tâche, nous allons parcourir la galerie de démarrage rapide Azure e
     |----|----|
     | Abonnement | **Choisissez votre abonnement**|
     | Groupe de ressources | **myRGTemplate** (créer un nouveau) |
-    | Lieu | **(États-Unis) USA Est** |
+    | Emplacement | **(États-Unis) USA Est** |
     | Nom d’utilisateur administrateur | **azureuser** |
     | Mot de passe administrateur | **Pa$$w0rd1234** |
     | Préfixe d’étiquette DNS | **myvmtemplate*xxxx*** |
-    | Version de système d’exploitation Windows | **2019-Datacenter** |
+    | Version du système d’exploitation Windows | **2019-Datacenter** |
     | | |
     
     ** Remarque : Il n’y a pas de coûts associés à l’utilisation de ce modèle.
@@ -48,7 +48,7 @@ Dans cette tâche, nous allons parcourir la galerie de démarrage rapide Azure e
 
 10. Surveillez votre déploiement. 
 
-# Tâche 2 : Vérifiez et contrôlez le déploiement de votre machine virtuelle
+# Tâche 2 : Vérifier et contrôler le déploiement de votre machine virtuelle
 
 Dans cette tâche, nous allons vérifier si la machine virtuelle s’est correctement déployée. 
 
@@ -58,15 +58,15 @@ Dans cette tâche, nous allons vérifier si la machine virtuelle s’est correct
 
     ![Capture d’écran de la page des machines virtuelles. La nouvelle machine virtuelle est affichée et fonctionne.](../images/0902.png)
 
-3. Sélectionnez votre machine virtuelle et sur le volet **Vue d’ensemble**, faites défiler vers le bas pour afficher les données de surveillance.
+3. Sélectionnez votre machine virtuelle puis, dans le volet **Vue d’ensemble**, faites défiler vers le bas pour afficher les données de surveillance.
 
-    **Remarque** : Le délai de surveillance peut être ajusté, de une heure à 30 jours.
+    **Remarque** : Le délai de surveillance peut être ajusté, de une heure à 30 jours.
 
 4. Passez en revue les différents graphiques fournis, y compris **UC (moyenne)**, **Réseau (total)**, et **Octets de disque (total)**. 
 
     ![Capture d’écran des graphiques de surveillance des machines virtuelles.](../images/0903.png)
 
-5. Cliquez sur un graphique. Remarquez que vous pouvez **ajouter une métrique** et modifier le type de graphique.
+5. Cliquez sur un graphique. Remarquez que vous pouvez **Ajouter une mesure** et modifier le type de graphique.
 
 6. Revenez au panneau **Vue d’ensemble**.
 

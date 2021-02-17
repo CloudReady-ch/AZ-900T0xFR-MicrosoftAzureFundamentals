@@ -43,7 +43,7 @@ Dans cette tâche, nous utiliserons Azure CLI pour créer un groupe de ressource
     az group list --output table
     ```
 
-4. Créez une machine virtuelle. Assurez-vous que chaque ligne, à l’exception de la dernière, est suivie de la barre oblique inverse (« \ »). Si vous tapez la commande entière sur la même ligne, n’utilisez pas la barre oblique inverse. 
+4. Créez une machine virtuelle. Assurez-vous que chaque ligne, à l’exception de la dernière, est suivie de la barre oblique inverse (`\`). Si vous tapez la commande entière sur la même ligne, n’utilisez pas la barre oblique inverse. 
 
     ```cli
     az vm create \
@@ -55,7 +55,7 @@ Dans cette tâche, nous utiliserons Azure CLI pour créer un groupe de ressource
     --admin-password Pa$$w0rd1234
     ```
 
-    >**Remarque ** : Si vous utilisez la ligne de commande sur un ordinateur Windows, remplacez le caractère barre oblique inverse ( \ ) par le caractère caret, représentant un accent circonflexe ( ^).
+    >**Remarque** : Si vous utilisez la ligne de commande sur un ordinateur Windows, remplacez le caractère barre oblique inverse (`\`) par le caractère caret, représentant un accent circonflexe (`^`).
     
     **Remarque** : L’exécution de cette commande peut prendre 2 à 3 minutes. La commande créera une machine virtuelle et diverses ressources associées, telles que des ressources de stockage, de mise en réseau et de sécurité. Ne passez pas à l’étape suivante tant que le déploiement de la machine virtuelle n’est pas terminé. 
 

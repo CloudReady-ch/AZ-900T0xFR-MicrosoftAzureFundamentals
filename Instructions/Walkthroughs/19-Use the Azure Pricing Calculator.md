@@ -41,9 +41,9 @@ Dans cette tâche, nous allons estimer le coût d’un échantillon d’infrastr
 
    ![Capture d’écran de la zone des options de facturation de la machine virtuelle dans la page web d’estimation de la calculatrice de prix Azure. L’option de facturation au fur et à mesure en surbrillance indique comment spécifier une option de facturation pour une machine virtuelle dans une estimation de la calculatrice de prix Azure.](../images/1903.png)
 
-6. Dans Azure, un mois est défini comme 730 heures. Si votre machine virtuelle doit être disponible 100 %du temps chaque mois, vous devez définir la valeur des heures par mois sur « 730 ». Cet exemple pas à pas nécessite qu’une machine virtuelle soit disponible 50 % du temps chaque mois.
+6. Dans Azure, un mois est défini comme 730 heures. Si votre machine virtuelle doit être disponible 100 %du temps chaque mois, vous devez définir la valeur des heures par mois sur `730`. Cet exemple pas à pas nécessite qu’une machine virtuelle soit disponible 50 % du temps chaque mois.
 
-    Laissez le nombre de machines virtuelles défini sur « 1 » et modifiez la valeur des heures par mois sur « 365 ».
+    Laissez le nombre de machines virtuelles défini sur `1` et modifiez la valeur des heures par mois sur `365`.
 
    ![Capture d’écran de la zone des options de facturation de la machine virtuelle dans la page web d’estimation de la calculatrice de prix Azure. Le nombre d’instances de machines virtuelles et d’heures par mois en surbrillance indique comment spécifier le nombre d’instances et d’heures par mois pour une machine virtuelle dans une estimation de la calculatrice de prix Azure.](../images/1904.png)
 

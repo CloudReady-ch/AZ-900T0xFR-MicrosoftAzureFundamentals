@@ -9,7 +9,7 @@ Dans cette procédure pas à pas, nous accéderons au Centre de gestion de la co
 
 # Tâche 1 : Accéder au Centre de gestion de la confidentialité (5 min)
 
-1. [Dans un navigateur, accédez à la page Offres relatives à la conformité du Centre de gestion de la conformité Microsoft](https://docs.microsoft.com/fr-fr/microsoft-365/compliance/offering-home).
+1. Dans un navigateur, accédez à la page Offres relatives à la conformité du [Centre de gestion de la conformité Microsoft](https://docs.microsoft.com/fr-fr/microsoft-365/compliance/offering-home).
 
 2. Notez que les offres sont listées par groupe : **Global**, **Gouvernement des États-Unis**, **Secteur d’activité** et **Régional**.
 

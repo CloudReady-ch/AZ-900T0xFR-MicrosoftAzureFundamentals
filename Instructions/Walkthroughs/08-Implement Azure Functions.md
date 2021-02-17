@@ -78,7 +78,7 @@ Dans cette tâche, nous allons utiliser la fonction Webhook + API pour afficher 
 
     ![Capture d’écran d’une URL de fonction en surbrillance et d’un exemple de nom d’utilisateur ajouté dans la barre d’adresse d’un navigateur web. Le message de type Hello et le nom d’utilisateur sont également mis en surbrillance pour illustrer la sortie de la fonction dans la fenêtre principale du navigateur.](../images/0707.png)
 
-1. Lorsque votre fonction s’exécute, chaque invocation est tracée. Pour afficher les traces dans le portail Azure, revenez sur **HttpTrigger1 \| **Panneau **Code + Test** et cliquez sur **Contrôler**.
+1. Lorsque votre fonction s’exécute, chaque invocation est tracée. Pour afficher les traces dans le portail Azure, revenez sur **HttpTrigger1 \|** Panneau **Code + Test** et cliquez sur **Contrôler**.
 
     ![Capture d’écran d’un journal d’informations de traçage résultant de l’exécution de la fonction dans l’éditeur de fonction du portail Azure.](../images/0709.png) 
 

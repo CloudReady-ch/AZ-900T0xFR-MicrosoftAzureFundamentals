@@ -75,9 +75,9 @@ Dans cette tâche, nous allons créer un conteneur blob et charger un fichier d�
 
 2. Découvrez certains des problèmes de stockage les plus courants. Notez qu’il existe plusieurs utilitaires de résolution des problèmes.
 
-3. Dans le panneau du compte de stockage, défilez vers le bas jusqu’à la section **Surveillance**, puis cliquez sur **Insights **. Notez qu’il existe des informations sur les pannes, les performances, la disponibilité et la capacité. Vos informations seront différentes.
+3. Dans le panneau du compte de stockage, défilez vers le bas jusqu’à la section **Surveillance**, puis cliquez sur **Insights**. Notez qu’il existe des informations sur les pannes, les performances, la disponibilité et la capacité. Vos informations seront différentes.
 
-    ![Capture d’écran de la page Informations du compte de stockage.](../images/0403.PNG)
+    ![Capture d’écran de la page Informations du compte de stockage.](../images/0403.png)
 
 Félicitations ! Vous avez créé un compte de stockage, puis travaillé avec des objets blob de stockage.
 
